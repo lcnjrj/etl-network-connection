@@ -1,0 +1,1215 @@
+jan 08 03:39:21 brain-a320ms2h systemd[1]: Starting NetworkManager.service - Network Manager...
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.0231] NetworkManager (version 1.52.0) is starting... (boot:dfb95025-d4ce-4248-ab4c-e0b6626bd5f6)
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.0232] Read config: /etc/NetworkManager/NetworkManager.conf, /usr/lib/NetworkManager/conf.d/{10-dns-resolved.conf,no-mac-addr-change.conf}, /run/NetworkManager/conf.d/10-globally-managed-devices.conf, /etc/NetworkManager/conf.d/{10-ubuntu-fan.conf,default-wifi-powersave-on.conf}
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.0308] manager[0x59de796cd060]: monitoring kernel firmware directory '/lib/firmware'.
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.0309] monitoring ifupdown state file '/run/network/ifstate'.
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.0346] hostname: hostname: using hostnamed
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.0346] hostname: static hostname changed from (none) to "brain-a320ms2h"
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.0349] dns-mgr: init: dns=systemd-resolved rc-manager=unmanaged (auto), plugin=systemd-resolved
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.0374] rfkill1: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:08.1/0000:07:00.3/usb3/3-4/3-4:1.0/ieee80211/phy0/rfkill1) (driver mt7601u)
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.0378] manager[0x59de796cd060]: rfkill: Wi-Fi hardware radio set enabled
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.0378] manager[0x59de796cd060]: rfkill: WWAN hardware radio set enabled
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.1280] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-wifi.so)
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.1474] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-wwan.so)
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.1553] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-adsl.so)
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.1624] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-bluetooth.so)
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.1794] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-team.so)
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.1797] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.1799] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.1800] manager: Networking is enabled by state file
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.1916] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-settings-plugin-ifupdown.so")
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.1918] settings: Loaded settings plugin: keyfile (internal)
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.1919] ifupdown: management mode: unmanaged
+jan 08 03:39:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854363.1970] ifupdown: interfaces file /etc/network/interfaces doesn't exist
+jan 08 03:39:23 brain-a320ms2h generate[1021]: Permissions for /etc/netplan/01-network-manager-all.yaml are too open. Netplan configuration should NOT be accessible by others.
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.1561] dhcp: init: Using DHCP client 'internal'
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.1563] manager: (lo): new Loopback device (/org/freedesktop/NetworkManager/Devices/1)
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.1576] device (lo): state change: unmanaged -> unavailable (reason 'connection-assumed', managed-type: 'external')
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.1582] device (lo): state change: unavailable -> disconnected (reason 'connection-assumed', managed-type: 'external')
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.1592] device (lo): Activation: starting connection 'lo' (4c41fa8e-60ff-47d8-892d-cd0bfccb44ef)
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.1602] manager: (enp6s0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.1605] device (enp6s0): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.3465] manager: (wlx00e1b011877f): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/3)
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.3470] device (wlx00e1b011877f): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.3613] failed to open /run/network/ifstate
+jan 08 03:39:24 brain-a320ms2h systemd[1]: Started NetworkManager.service - Network Manager.
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.3622] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.3645] device (lo): state change: disconnected -> prepare (reason 'none', managed-type: 'external')
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.3648] device (lo): state change: prepare -> config (reason 'none', managed-type: 'external')
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.3650] device (lo): state change: config -> ip-config (reason 'none', managed-type: 'external')
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.3654] device (lo): state change: ip-config -> ip-check (reason 'none', managed-type: 'external')
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.3748] manager: (7C:8B:B5:14:92:24): new Bluetooth device (/org/freedesktop/NetworkManager/Devices/4)
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.3752] device (7C:8B:B5:14:92:24): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.3756] modem-manager: ModemManager available
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.3757] device (lo): state change: ip-check -> secondaries (reason 'none', managed-type: 'external')
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.3758] device (7C:8B:B5:14:92:24): state change: unavailable -> disconnected (reason 'none', managed-type: 'full')
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.3760] device (lo): state change: secondaries -> activated (reason 'none', managed-type: 'external')
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.3763] device (lo): Activation: successful, device activated.
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.6505] device (wlx00e1b011877f): supplicant interface state: internal-starting -> disconnected
+jan 08 03:39:24 brain-a320ms2h NetworkManager[897]: <info>  [1767854364.6540] device (wlx00e1b011877f): state change: unavailable -> disconnected (reason 'supplicant-available', managed-type: 'full')
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.7826] policy: auto-activating connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.7830] device (wlx00e1b011877f): Activation: starting connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.7831] device (wlx00e1b011877f): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.7833] manager: NetworkManager state is now CONNECTING
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.7835] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.7839] device (wlx00e1b011877f): Activation: (wifi) access point 'Luciana oi fibra 2G' has security, but secrets are required.
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.7839] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.7840] sup-iface[b58e89252fbdec57,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.7847] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.7849] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.7851] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.7853] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.7853] Config: added 'scan_ssid' value '1'
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.7853] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.7853] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.7854] Config: added 'auth_alg' value 'OPEN'
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.7854] Config: added 'psk' value '<hidden>'
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.7991] device (wlx00e1b011877f): supplicant interface state: disconnected -> authenticating
+jan 08 03:39:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854365.8029] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 03:39:26 brain-a320ms2h NetworkManager[897]: <info>  [1767854366.4417] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 03:39:26 brain-a320ms2h NetworkManager[897]: <info>  [1767854366.5367] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 03:39:27 brain-a320ms2h NetworkManager[897]: <info>  [1767854367.6673] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 03:39:27 brain-a320ms2h NetworkManager[897]: <info>  [1767854367.6705] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 03:39:27 brain-a320ms2h NetworkManager[897]: <info>  [1767854367.9874] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 03:39:28 brain-a320ms2h NetworkManager[897]: <info>  [1767854368.1003] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 03:39:28 brain-a320ms2h NetworkManager[897]: <info>  [1767854368.1623] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 03:39:28 brain-a320ms2h NetworkManager[897]: <info>  [1767854368.1623] device (wlx00e1b011877f): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Luciana oi fibra 2G"
+jan 08 03:39:28 brain-a320ms2h NetworkManager[897]: <info>  [1767854368.1627] device (wlx00e1b011877f): state change: config -> ip-config (reason 'none', managed-type: 'full')
+jan 08 03:39:28 brain-a320ms2h NetworkManager[897]: <info>  [1767854368.1636] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:39:29 brain-a320ms2h NetworkManager[897]: <info>  [1767854369.7719] device (enp6s0): carrier: link connected
+jan 08 03:39:29 brain-a320ms2h NetworkManager[897]: <info>  [1767854369.7724] device (enp6s0): state change: unavailable -> disconnected (reason 'carrier-changed', managed-type: 'full')
+jan 08 03:39:29 brain-a320ms2h NetworkManager[897]: <info>  [1767854369.7735] policy: auto-activating connection 'Conexão cabeada 1' (35d7efc7-f8e1-3135-a829-52d803f56bfc)
+jan 08 03:39:29 brain-a320ms2h NetworkManager[897]: <info>  [1767854369.7743] device (enp6s0): Activation: starting connection 'Conexão cabeada 1' (35d7efc7-f8e1-3135-a829-52d803f56bfc)
+jan 08 03:39:29 brain-a320ms2h NetworkManager[897]: <info>  [1767854369.7745] device (enp6s0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+jan 08 03:39:29 brain-a320ms2h NetworkManager[897]: <info>  [1767854369.7752] device (enp6s0): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 03:39:29 brain-a320ms2h NetworkManager[897]: <info>  [1767854369.7763] device (enp6s0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+jan 08 03:39:29 brain-a320ms2h NetworkManager[897]: <info>  [1767854369.7771] dhcp4 (enp6s0): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:39:31 brain-a320ms2h NetworkManager[897]: <info>  [1767854371.3922] dhcp6 (enp6s0): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:39:31 brain-a320ms2h NetworkManager[897]: <info>  [1767854371.3931] policy: set 'Conexão cabeada 1' (enp6s0) as default for IPv6 routing and DNS
+jan 08 03:39:31 brain-a320ms2h NetworkManager[897]: <info>  [1767854371.3960] dhcp6 (enp6s0): state changed new lease
+jan 08 03:39:31 brain-a320ms2h NetworkManager[897]: <info>  [1767854371.8428] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71, acd pending
+jan 08 03:39:31 brain-a320ms2h NetworkManager[897]: <info>  [1767854371.9966] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 03:39:31 brain-a320ms2h NetworkManager[897]: <info>  [1767854371.9974] policy: set 'Conexão cabeada 1' (enp6s0) as default for IPv4 routing and DNS
+jan 08 03:39:32 brain-a320ms2h NetworkManager[897]: <info>  [1767854372.1366] device (enp6s0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+jan 08 03:39:32 brain-a320ms2h NetworkManager[897]: <info>  [1767854372.1398] device (enp6s0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+jan 08 03:39:32 brain-a320ms2h NetworkManager[897]: <info>  [1767854372.1401] device (enp6s0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+jan 08 03:39:32 brain-a320ms2h NetworkManager[897]: <info>  [1767854372.1407] manager: NetworkManager state is now CONNECTED_SITE
+jan 08 03:39:32 brain-a320ms2h NetworkManager[897]: <info>  [1767854372.1412] device (enp6s0): Activation: successful, device activated.
+jan 08 03:39:32 brain-a320ms2h NetworkManager[897]: <info>  [1767854372.1421] manager: NetworkManager state is now CONNECTED_GLOBAL
+jan 08 03:39:32 brain-a320ms2h NetworkManager[897]: <info>  [1767854372.3594] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 03:39:32 brain-a320ms2h NetworkManager[897]: <info>  [1767854372.4620] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 03:39:32 brain-a320ms2h NetworkManager[897]: <info>  [1767854372.8995] agent-manager: agent[b75e1654cc3f223d,:1.46/org.freedesktop.nm-applet/1000]: agent registered
+jan 08 03:39:33 brain-a320ms2h NetworkManager[897]: <info>  [1767854373.6026] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 03:39:33 brain-a320ms2h NetworkManager[897]: <info>  [1767854373.6047] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 03:39:33 brain-a320ms2h NetworkManager[897]: <info>  [1767854373.8359] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 03:39:37 brain-a320ms2h NetworkManager[897]: <info>  [1767854377.8447] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 03:39:41 brain-a320ms2h NetworkManager[897]: <info>  [1767854381.8698] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 03:39:42 brain-a320ms2h NetworkManager[897]: <info>  [1767854382.3546] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 03:39:42 brain-a320ms2h NetworkManager[897]: <info>  [1767854382.4548] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 03:39:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854383.5878] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 03:39:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854383.6934] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 03:39:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854384.3329] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 03:39:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854384.8289] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 03:39:52 brain-a320ms2h NetworkManager[897]: <info>  [1767854392.0819] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 03:39:52 brain-a320ms2h NetworkManager[897]: <info>  [1767854392.0840] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 03:39:52 brain-a320ms2h NetworkManager[897]: <info>  [1767854392.5433] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 03:39:56 brain-a320ms2h NetworkManager[897]: <info>  [1767854396.3640] device (wlx00e1b011877f): supplicant interface state: associated -> disconnected
+jan 08 03:39:56 brain-a320ms2h NetworkManager[897]: <info>  [1767854396.4659] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 03:39:57 brain-a320ms2h NetworkManager[897]: <info>  [1767854397.5966] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 03:39:57 brain-a320ms2h NetworkManager[897]: <info>  [1767854397.5983] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 03:39:57 brain-a320ms2h NetworkManager[897]: <info>  [1767854397.9176] device (wlx00e1b011877f): supplicant interface state: associating -> 4way_handshake
+jan 08 03:39:58 brain-a320ms2h NetworkManager[897]: <info>  [1767854398.9600] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 03:40:12 brain-a320ms2h NetworkManager[897]: <info>  [1767854412.9567] device (wlx00e1b011877f): state change: ip-config -> failed (reason 'ip-config-unavailable', managed-type: 'full')
+jan 08 03:40:12 brain-a320ms2h NetworkManager[897]: <warn>  [1767854412.9575] device (wlx00e1b011877f): Activation: failed for connection 'Luciana oi fibra 2G'
+jan 08 03:40:12 brain-a320ms2h NetworkManager[897]: <info>  [1767854412.9578] device (wlx00e1b011877f): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+jan 08 03:40:12 brain-a320ms2h NetworkManager[897]: <info>  [1767854412.9637] dhcp4 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 03:40:12 brain-a320ms2h NetworkManager[897]: <info>  [1767854412.9639] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:40:12 brain-a320ms2h NetworkManager[897]: <info>  [1767854412.9641] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.0530] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.4760] policy: auto-activating connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.4769] device (wlx00e1b011877f): Activation: starting connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.4771] device (wlx00e1b011877f): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.4777] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.4782] device (wlx00e1b011877f): Activation: (wifi) access point 'Luciana oi fibra 2G' has security, but secrets are required.
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.4782] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.4785] sup-iface[b58e89252fbdec57,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.4801] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.4806] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.4811] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.4812] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.4812] Config: added 'scan_ssid' value '1'
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.4813] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.4813] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.4813] Config: added 'auth_alg' value 'OPEN'
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.4813] Config: added 'psk' value '<hidden>'
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.5093] device (wlx00e1b011877f): supplicant interface state: disconnected -> authenticating
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.5119] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.5688] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 03:40:13 brain-a320ms2h NetworkManager[897]: <info>  [1767854413.6849] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 03:40:15 brain-a320ms2h NetworkManager[897]: <info>  [1767854415.8089] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 03:40:15 brain-a320ms2h NetworkManager[897]: <info>  [1767854415.8090] device (wlx00e1b011877f): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Luciana oi fibra 2G"
+jan 08 03:40:15 brain-a320ms2h NetworkManager[897]: <info>  [1767854415.8092] device (wlx00e1b011877f): state change: config -> ip-config (reason 'none', managed-type: 'full')
+jan 08 03:40:15 brain-a320ms2h NetworkManager[897]: <info>  [1767854415.8106] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:40:15 brain-a320ms2h NetworkManager[897]: <info>  [1767854415.8421] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66, acd pending
+jan 08 03:40:15 brain-a320ms2h NetworkManager[897]: <info>  [1767854415.9576] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66
+jan 08 03:40:18 brain-a320ms2h NetworkManager[897]: <info>  [1767854418.1023] device (wlx00e1b011877f): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+jan 08 03:40:18 brain-a320ms2h NetworkManager[897]: <info>  [1767854418.1058] device (wlx00e1b011877f): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+jan 08 03:40:18 brain-a320ms2h NetworkManager[897]: <info>  [1767854418.1061] device (wlx00e1b011877f): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+jan 08 03:40:18 brain-a320ms2h NetworkManager[897]: <info>  [1767854418.1073] device (wlx00e1b011877f): Activation: successful, device activated.
+jan 08 03:40:18 brain-a320ms2h NetworkManager[897]: <info>  [1767854418.1112] manager: startup complete
+jan 08 03:40:23 brain-a320ms2h NetworkManager[897]: <info>  [1767854423.0308] dhcp6 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:40:31 brain-a320ms2h NetworkManager[897]: <info>  [1767854431.1389] dhcp6 (wlx00e1b011877f): state changed new lease
+jan 08 03:40:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854443.5124] manager: (docker0): new Bridge device (/org/freedesktop/NetworkManager/Devices/5)
+jan 08 03:40:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854443.5760] device (docker0): state change: unmanaged -> unavailable (reason 'connection-assumed', managed-type: 'external')
+jan 08 03:40:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854443.5765] device (docker0): state change: unavailable -> disconnected (reason 'connection-assumed', managed-type: 'external')
+jan 08 03:40:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854443.5771] device (docker0): Activation: starting connection 'docker0' (e247c826-4f2d-4018-846b-efe673a20121)
+jan 08 03:40:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854443.5816] device (docker0): state change: disconnected -> prepare (reason 'none', managed-type: 'external')
+jan 08 03:40:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854443.5821] device (docker0): state change: prepare -> config (reason 'none', managed-type: 'external')
+jan 08 03:40:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854443.5829] device (docker0): state change: config -> ip-config (reason 'none', managed-type: 'external')
+jan 08 03:40:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854443.5832] device (docker0): state change: ip-config -> ip-check (reason 'none', managed-type: 'external')
+jan 08 03:40:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854443.6083] device (docker0): state change: ip-check -> secondaries (reason 'none', managed-type: 'external')
+jan 08 03:40:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854443.6084] device (docker0): state change: secondaries -> activated (reason 'none', managed-type: 'external')
+jan 08 03:40:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854443.6089] device (docker0): Activation: successful, device activated.
+jan 08 03:40:48 brain-a320ms2h NetworkManager[897]: <info>  [1767854448.3485] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 03:40:48 brain-a320ms2h NetworkManager[897]: <info>  [1767854448.4488] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 03:40:49 brain-a320ms2h NetworkManager[897]: <info>  [1767854449.5708] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 03:40:49 brain-a320ms2h NetworkManager[897]: <info>  [1767854449.5801] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 03:40:50 brain-a320ms2h NetworkManager[897]: <info>  [1767854450.2170] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 03:40:50 brain-a320ms2h NetworkManager[897]: <info>  [1767854450.7128] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 03:40:57 brain-a320ms2h NetworkManager[897]: <info>  [1767854457.9618] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 03:40:57 brain-a320ms2h NetworkManager[897]: <info>  [1767854457.9673] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 03:40:58 brain-a320ms2h NetworkManager[897]: <info>  [1767854458.1134] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 03:40:59 brain-a320ms2h NetworkManager[897]: <info>  [1767854459.1867] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 03:41:02 brain-a320ms2h NetworkManager[897]: <info>  [1767854462.1947] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 03:41:02 brain-a320ms2h NetworkManager[897]: <info>  [1767854462.1949] device (wlx00e1b011877f): ip:dhcp4: restarting
+jan 08 03:41:02 brain-a320ms2h NetworkManager[897]: <info>  [1767854462.1950] dhcp4 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 03:41:02 brain-a320ms2h NetworkManager[897]: <info>  [1767854462.1950] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:41:02 brain-a320ms2h NetworkManager[897]: <info>  [1767854462.1950] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 03:41:02 brain-a320ms2h NetworkManager[897]: <info>  [1767854462.1951] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:41:02 brain-a320ms2h NetworkManager[897]: <info>  [1767854462.1952] device (wlx00e1b011877f): ip:dhcp6: restarting
+jan 08 03:41:02 brain-a320ms2h NetworkManager[897]: <info>  [1767854462.1953] dhcp6 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 03:41:02 brain-a320ms2h NetworkManager[897]: <info>  [1767854462.1953] dhcp6 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:41:02 brain-a320ms2h NetworkManager[897]: <info>  [1767854462.1953] dhcp6 (wlx00e1b011877f): state changed no lease
+jan 08 03:41:02 brain-a320ms2h NetworkManager[897]: <info>  [1767854462.1954] dhcp6 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:41:03 brain-a320ms2h NetworkManager[897]: <info>  [1767854463.3845] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 03:41:03 brain-a320ms2h NetworkManager[897]: <info>  [1767854463.4849] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 03:41:04 brain-a320ms2h NetworkManager[897]: <info>  [1767854464.6047] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 03:41:04 brain-a320ms2h NetworkManager[897]: <info>  [1767854464.6248] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 03:41:05 brain-a320ms2h NetworkManager[897]: <info>  [1767854465.2699] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 03:41:05 brain-a320ms2h NetworkManager[897]: <info>  [1767854465.7679] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 03:41:06 brain-a320ms2h NetworkManager[897]: <info>  [1767854466.8918] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 03:41:06 brain-a320ms2h NetworkManager[897]: <info>  [1767854466.8961] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 03:41:07 brain-a320ms2h NetworkManager[897]: <info>  [1767854467.1589] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 03:41:08 brain-a320ms2h NetworkManager[897]: <info>  [1767854468.1284] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 03:41:11 brain-a320ms2h NetworkManager[897]: <info>  [1767854471.1227] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 03:41:11 brain-a320ms2h NetworkManager[897]: <info>  [1767854471.1230] device (wlx00e1b011877f): ip:dhcp4: restarting
+jan 08 03:41:11 brain-a320ms2h NetworkManager[897]: <info>  [1767854471.1285] dhcp4 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 03:41:11 brain-a320ms2h NetworkManager[897]: <info>  [1767854471.1286] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 03:41:11 brain-a320ms2h NetworkManager[897]: <info>  [1767854471.1287] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:41:11 brain-a320ms2h NetworkManager[897]: <info>  [1767854471.1288] device (wlx00e1b011877f): ip:dhcp6: restarting
+jan 08 03:41:11 brain-a320ms2h NetworkManager[897]: <info>  [1767854471.1289] dhcp6 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 03:41:11 brain-a320ms2h NetworkManager[897]: <info>  [1767854471.1289] dhcp6 (wlx00e1b011877f): state changed no lease
+jan 08 03:41:11 brain-a320ms2h NetworkManager[897]: <info>  [1767854471.1289] dhcp6 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:41:25 brain-a320ms2h NetworkManager[897]: <info>  [1767854485.9547] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 03:42:15 brain-a320ms2h NetworkManager[897]: <info>  [1767854535.1205] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66, acd pending
+jan 08 03:42:15 brain-a320ms2h NetworkManager[897]: <info>  [1767854535.2320] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66
+jan 08 03:42:28 brain-a320ms2h NetworkManager[897]: <info>  [1767854548.3785] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 03:42:28 brain-a320ms2h NetworkManager[897]: <info>  [1767854548.4719] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 03:42:29 brain-a320ms2h NetworkManager[897]: <info>  [1767854549.5958] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 03:42:29 brain-a320ms2h NetworkManager[897]: <info>  [1767854549.8471] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 03:42:30 brain-a320ms2h NetworkManager[897]: <info>  [1767854550.2198] device (wlx00e1b011877f): supplicant interface state: associating -> 4way_handshake
+jan 08 03:42:34 brain-a320ms2h NetworkManager[897]: <info>  [1767854554.3790] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> disconnected
+jan 08 03:42:34 brain-a320ms2h NetworkManager[897]: <info>  [1767854554.4809] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 03:42:35 brain-a320ms2h NetworkManager[897]: <info>  [1767854555.5946] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 03:42:36 brain-a320ms2h NetworkManager[897]: <info>  [1767854556.2360] device (wlx00e1b011877f): supplicant interface state: authenticating -> disconnected
+jan 08 03:42:37 brain-a320ms2h NetworkManager[897]: <info>  [1767854557.2379] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 03:42:43 brain-a320ms2h NetworkManager[897]: <warn>  [1767854563.9536] device (wlx00e1b011877f): link timed out.
+jan 08 03:42:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854563.9540] device (wlx00e1b011877f): state change: activated -> failed (reason 'supplicant-timeout', managed-type: 'full')
+jan 08 03:42:43 brain-a320ms2h NetworkManager[897]: <warn>  [1767854563.9549] device (wlx00e1b011877f): Activation: failed for connection 'Luciana oi fibra 2G'
+jan 08 03:42:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854563.9562] device (wlx00e1b011877f): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+jan 08 03:42:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854563.9582] dhcp4 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 03:42:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854563.9582] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:42:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854563.9583] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 03:42:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854563.9585] dhcp6 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 03:42:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854563.9608] dhcp6 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:42:43 brain-a320ms2h NetworkManager[897]: <info>  [1767854563.9609] dhcp6 (wlx00e1b011877f): state changed no lease
+jan 08 03:42:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854564.4812] device (wlx00e1b011877f): supplicant interface state: scanning -> inactive
+jan 08 03:42:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854564.4967] policy: auto-activating connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 03:42:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854564.4976] device (wlx00e1b011877f): Activation: starting connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 03:42:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854564.4977] device (wlx00e1b011877f): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+jan 08 03:42:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854564.4983] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 03:42:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854564.4991] device (wlx00e1b011877f): Activation: (wifi) access point 'Luciana oi fibra 2G' has security, but secrets are required.
+jan 08 03:42:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854564.4991] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 03:42:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854564.4994] sup-iface[b58e89252fbdec57,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 03:42:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854564.5010] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 03:42:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854564.5017] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 03:42:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854564.5022] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 03:42:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854564.5023] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 03:42:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854564.5023] Config: added 'scan_ssid' value '1'
+jan 08 03:42:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854564.5023] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 03:42:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854564.5024] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 03:42:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854564.5024] Config: added 'auth_alg' value 'OPEN'
+jan 08 03:42:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854564.5024] Config: added 'psk' value '<hidden>'
+jan 08 03:42:44 brain-a320ms2h NetworkManager[897]: <info>  [1767854564.5263] device (wlx00e1b011877f): supplicant interface state: inactive -> authenticating
+jan 08 03:42:45 brain-a320ms2h NetworkManager[897]: <info>  [1767854565.1650] device (wlx00e1b011877f): supplicant interface state: authenticating -> disconnected
+jan 08 03:42:50 brain-a320ms2h NetworkManager[897]: <info>  [1767854570.1670] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 03:42:55 brain-a320ms2h NetworkManager[897]: <info>  [1767854575.2837] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 03:42:55 brain-a320ms2h NetworkManager[897]: <info>  [1767854575.2926] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 03:42:55 brain-a320ms2h NetworkManager[897]: <info>  [1767854575.3488] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 03:42:56 brain-a320ms2h NetworkManager[897]: <info>  [1767854576.3131] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 03:42:56 brain-a320ms2h NetworkManager[897]: <info>  [1767854576.3530] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 03:42:56 brain-a320ms2h NetworkManager[897]: <info>  [1767854576.3530] device (wlx00e1b011877f): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Luciana oi fibra 2G"
+jan 08 03:42:56 brain-a320ms2h NetworkManager[897]: <info>  [1767854576.3532] device (wlx00e1b011877f): state change: config -> ip-config (reason 'none', managed-type: 'full')
+jan 08 03:42:56 brain-a320ms2h NetworkManager[897]: <info>  [1767854576.3545] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:42:56 brain-a320ms2h NetworkManager[897]: <info>  [1767854576.3838] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66, acd pending
+jan 08 03:42:56 brain-a320ms2h NetworkManager[897]: <info>  [1767854576.5360] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66
+jan 08 03:42:56 brain-a320ms2h NetworkManager[897]: <info>  [1767854576.6639] device (wlx00e1b011877f): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+jan 08 03:42:56 brain-a320ms2h NetworkManager[897]: <info>  [1767854576.6673] device (wlx00e1b011877f): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+jan 08 03:42:56 brain-a320ms2h NetworkManager[897]: <info>  [1767854576.6677] device (wlx00e1b011877f): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+jan 08 03:42:56 brain-a320ms2h NetworkManager[897]: <info>  [1767854576.6690] device (wlx00e1b011877f): Activation: successful, device activated.
+jan 08 03:42:57 brain-a320ms2h NetworkManager[897]: <info>  [1767854577.7142] device (wlx00e1b011877f): conflict detected for IP address 192.168.1.66 with host B4:2E:99:F2:DE:54
+jan 08 03:42:58 brain-a320ms2h NetworkManager[897]: <info>  [1767854578.4620] dhcp6 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:42:58 brain-a320ms2h NetworkManager[897]: <info>  [1767854578.4934] dhcp6 (wlx00e1b011877f): state changed new lease
+jan 08 03:44:27 brain-a320ms2h NetworkManager[897]: <info>  [1767854667.9777] modem-manager: ModemManager no longer available
+jan 08 03:44:32 brain-a320ms2h NetworkManager[897]: <info>  [1767854672.4377] device (7C:8B:B5:14:92:24): state change: disconnected -> unmanaged (reason 'unmanaged-link-not-init', managed-type: 'removed')
+jan 08 03:44:35 brain-a320ms2h systemd[1]: Stopping NetworkManager.service - Network Manager...
+jan 08 03:44:35 brain-a320ms2h NetworkManager[897]: <info>  [1767854675.3851] caught SIGTERM, shutting down normally.
+jan 08 03:44:35 brain-a320ms2h NetworkManager[897]: <info>  [1767854675.3858] dhcp4 (enp6s0): canceled DHCP transaction
+jan 08 03:44:35 brain-a320ms2h NetworkManager[897]: <info>  [1767854675.3858] dhcp4 (enp6s0): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:44:35 brain-a320ms2h NetworkManager[897]: <info>  [1767854675.3858] dhcp4 (enp6s0): state changed no lease
+jan 08 03:44:35 brain-a320ms2h NetworkManager[897]: <info>  [1767854675.3860] dhcp6 (enp6s0): canceled DHCP transaction
+jan 08 03:44:35 brain-a320ms2h NetworkManager[897]: <info>  [1767854675.3860] dhcp6 (enp6s0): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:44:35 brain-a320ms2h NetworkManager[897]: <info>  [1767854675.3860] dhcp6 (enp6s0): state changed no lease
+jan 08 03:44:35 brain-a320ms2h NetworkManager[897]: <info>  [1767854675.4282] device (wlx00e1b011877f): state change: activated -> deactivating (reason 'unmanaged', managed-type: 'full')
+jan 08 03:44:35 brain-a320ms2h NetworkManager[897]: <warn>  [1767854675.4320] dispatcher: (31) failed (after 0.003 sec): Transaction for NetworkManager-dispatcher.service/start is destructive (systemd-sysctl.service has 'stop' job queued, but 'start' is included in transaction).
+jan 08 03:44:35 brain-a320ms2h NetworkManager[897]: <info>  [1767854675.4321] manager: NetworkManager state is now CONNECTED_SITE
+jan 08 03:44:35 brain-a320ms2h NetworkManager[897]: <info>  [1767854675.4323] device (wlx00e1b011877f): state change: deactivating -> unmanaged (reason 'unmanaged-quitting', managed-type: 'full')
+jan 08 03:44:35 brain-a320ms2h NetworkManager[897]: <info>  [1767854675.4324] dhcp4 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 03:44:35 brain-a320ms2h NetworkManager[897]: <info>  [1767854675.4324] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:44:35 brain-a320ms2h NetworkManager[897]: <info>  [1767854675.4324] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 03:44:35 brain-a320ms2h NetworkManager[897]: <info>  [1767854675.4326] dhcp6 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 03:44:35 brain-a320ms2h NetworkManager[897]: <info>  [1767854675.4326] dhcp6 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:44:35 brain-a320ms2h NetworkManager[897]: <info>  [1767854675.4326] dhcp6 (wlx00e1b011877f): state changed no lease
+jan 08 03:44:35 brain-a320ms2h NetworkManager[897]: <info>  [1767854675.5866] exiting (success)
+jan 08 03:44:35 brain-a320ms2h systemd[1]: NetworkManager.service: Deactivated successfully.
+jan 08 03:44:35 brain-a320ms2h systemd[1]: Stopped NetworkManager.service - Network Manager.
+-- Boot e3fff9ca1de44c31ab126f9c99174d7d --
+jan 08 03:45:12 brain-a320ms2h systemd[1]: Starting NetworkManager.service - Network Manager...
+jan 08 03:45:13 brain-a320ms2h NetworkManager[904]: <info>  [1767854713.9895] NetworkManager (version 1.52.0) is starting... (boot:e3fff9ca-1de4-4c31-ab12-6f9c99174d7d)
+jan 08 03:45:13 brain-a320ms2h NetworkManager[904]: <info>  [1767854713.9896] Read config: /etc/NetworkManager/NetworkManager.conf, /usr/lib/NetworkManager/conf.d/{10-dns-resolved.conf,no-mac-addr-change.conf}, /run/NetworkManager/conf.d/10-globally-managed-devices.conf, /etc/NetworkManager/conf.d/{10-ubuntu-fan.conf,default-wifi-powersave-on.conf}
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.0019] manager[0x62b92e9aa190]: monitoring kernel firmware directory '/lib/firmware'.
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.0021] monitoring ifupdown state file '/run/network/ifstate'.
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.0110] hostname: hostname: using hostnamed
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.0111] hostname: static hostname changed from (none) to "brain-a320ms2h"
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.0114] dns-mgr: init: dns=systemd-resolved rc-manager=unmanaged (auto), plugin=systemd-resolved
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.0143] rfkill1: found Wi-Fi radio killswitch (at /sys/devices/pci0000:00/0000:00:08.1/0000:07:00.3/usb3/3-4/3-4:1.0/ieee80211/phy0/rfkill1) (driver mt7601u)
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.0147] manager[0x62b92e9aa190]: rfkill: Wi-Fi hardware radio set enabled
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.0148] manager[0x62b92e9aa190]: rfkill: WWAN hardware radio set enabled
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.0456] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-wifi.so)
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.0689] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-wwan.so)
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.0792] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-adsl.so)
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.0880] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-bluetooth.so)
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.1172] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-device-plugin-team.so)
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.1175] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.1175] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.1176] manager: Networking is enabled by state file
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.1283] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.52.0/libnm-settings-plugin-ifupdown.so")
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.1299] settings: Loaded settings plugin: keyfile (internal)
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.1300] ifupdown: management mode: unmanaged
+jan 08 03:45:14 brain-a320ms2h NetworkManager[904]: <info>  [1767854714.1342] ifupdown: interfaces file /etc/network/interfaces doesn't exist
+jan 08 03:45:14 brain-a320ms2h generate[1024]: Permissions for /etc/netplan/01-network-manager-all.yaml are too open. Netplan configuration should NOT be accessible by others.
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.3777] dhcp: init: Using DHCP client 'internal'
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.3780] manager: (lo): new Loopback device (/org/freedesktop/NetworkManager/Devices/1)
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.3794] device (lo): state change: unmanaged -> unavailable (reason 'connection-assumed', managed-type: 'external')
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.3800] device (lo): state change: unavailable -> disconnected (reason 'connection-assumed', managed-type: 'external')
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.3807] device (lo): Activation: starting connection 'lo' (a9913bc0-1842-493e-8255-05a8bbe95476)
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.3819] manager: (enp6s0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.3822] device (enp6s0): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.5450] manager: (wlx00e1b011877f): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/3)
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.5455] device (wlx00e1b011877f): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.5606] failed to open /run/network/ifstate
+jan 08 03:45:15 brain-a320ms2h systemd[1]: Started NetworkManager.service - Network Manager.
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.5616] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.5633] device (lo): state change: disconnected -> prepare (reason 'none', managed-type: 'external')
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.5638] device (lo): state change: prepare -> config (reason 'none', managed-type: 'external')
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.5642] device (lo): state change: config -> ip-config (reason 'none', managed-type: 'external')
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.5648] device (lo): state change: ip-config -> ip-check (reason 'none', managed-type: 'external')
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.5731] manager: (7C:8B:B5:14:92:24): new Bluetooth device (/org/freedesktop/NetworkManager/Devices/4)
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.5734] device (7C:8B:B5:14:92:24): state change: unmanaged -> unavailable (reason 'managed', managed-type: 'external')
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.5737] device (7C:8B:B5:14:92:24): state change: unavailable -> disconnected (reason 'none', managed-type: 'full')
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.5756] device (lo): state change: ip-check -> secondaries (reason 'none', managed-type: 'external')
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.5760] device (lo): state change: secondaries -> activated (reason 'none', managed-type: 'external')
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.5764] device (lo): Activation: successful, device activated.
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.5922] modem-manager: ModemManager available
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.6132] device (wlx00e1b011877f): supplicant interface state: internal-starting -> disconnected
+jan 08 03:45:15 brain-a320ms2h NetworkManager[904]: <info>  [1767854715.6132] device (wlx00e1b011877f): state change: unavailable -> disconnected (reason 'supplicant-available', managed-type: 'full')
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7438] policy: auto-activating connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7447] device (wlx00e1b011877f): Activation: starting connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7448] device (wlx00e1b011877f): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7450] manager: NetworkManager state is now CONNECTING
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7453] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7456] device (wlx00e1b011877f): Activation: (wifi) access point 'Luciana oi fibra 2G' has security, but secrets are required.
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7457] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7459] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7468] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7470] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7473] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7475] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7475] Config: added 'scan_ssid' value '1'
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7475] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7475] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7475] Config: added 'auth_alg' value 'OPEN'
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7475] Config: added 'psk' value '<hidden>'
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7610] device (wlx00e1b011877f): supplicant interface state: disconnected -> authenticating
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.7626] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 03:45:16 brain-a320ms2h NetworkManager[904]: <info>  [1767854716.8033] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 03:45:17 brain-a320ms2h NetworkManager[904]: <info>  [1767854717.7687] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 03:45:17 brain-a320ms2h NetworkManager[904]: <info>  [1767854717.8249] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 03:45:17 brain-a320ms2h NetworkManager[904]: <info>  [1767854717.8249] device (wlx00e1b011877f): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Luciana oi fibra 2G"
+jan 08 03:45:17 brain-a320ms2h NetworkManager[904]: <info>  [1767854717.8250] device (wlx00e1b011877f): state change: config -> ip-config (reason 'none', managed-type: 'full')
+jan 08 03:45:17 brain-a320ms2h NetworkManager[904]: <info>  [1767854717.8256] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:45:17 brain-a320ms2h NetworkManager[904]: <info>  [1767854717.8643] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66, acd pending
+jan 08 03:45:18 brain-a320ms2h NetworkManager[904]: <info>  [1767854718.0273] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66
+jan 08 03:45:18 brain-a320ms2h NetworkManager[904]: <info>  [1767854718.0287] policy: set 'Luciana oi fibra 2G' (wlx00e1b011877f) as default for IPv4 routing and DNS
+jan 08 03:45:18 brain-a320ms2h NetworkManager[904]: <info>  [1767854718.4923] device (wlx00e1b011877f): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+jan 08 03:45:18 brain-a320ms2h NetworkManager[904]: <info>  [1767854718.4950] device (wlx00e1b011877f): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+jan 08 03:45:18 brain-a320ms2h NetworkManager[904]: <info>  [1767854718.4952] device (wlx00e1b011877f): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+jan 08 03:45:18 brain-a320ms2h NetworkManager[904]: <info>  [1767854718.4958] manager: NetworkManager state is now CONNECTED_SITE
+jan 08 03:45:18 brain-a320ms2h NetworkManager[904]: <info>  [1767854718.4966] device (wlx00e1b011877f): Activation: successful, device activated.
+jan 08 03:45:18 brain-a320ms2h NetworkManager[904]: <info>  [1767854718.4974] manager: NetworkManager state is now CONNECTED_GLOBAL
+jan 08 03:45:19 brain-a320ms2h NetworkManager[904]: <info>  [1767854719.9056] dhcp6 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:45:19 brain-a320ms2h NetworkManager[904]: <info>  [1767854719.9066] policy: set 'Luciana oi fibra 2G' (wlx00e1b011877f) as default for IPv6 routing and DNS
+jan 08 03:45:20 brain-a320ms2h NetworkManager[904]: <info>  [1767854720.8852] device (enp6s0): carrier: link connected
+jan 08 03:45:20 brain-a320ms2h NetworkManager[904]: <info>  [1767854720.8856] device (enp6s0): state change: unavailable -> disconnected (reason 'carrier-changed', managed-type: 'full')
+jan 08 03:45:20 brain-a320ms2h NetworkManager[904]: <info>  [1767854720.8867] policy: auto-activating connection 'Conexão cabeada 1' (35d7efc7-f8e1-3135-a829-52d803f56bfc)
+jan 08 03:45:20 brain-a320ms2h NetworkManager[904]: <info>  [1767854720.8874] device (enp6s0): Activation: starting connection 'Conexão cabeada 1' (35d7efc7-f8e1-3135-a829-52d803f56bfc)
+jan 08 03:45:20 brain-a320ms2h NetworkManager[904]: <info>  [1767854720.8876] device (enp6s0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+jan 08 03:45:20 brain-a320ms2h NetworkManager[904]: <info>  [1767854720.8881] device (enp6s0): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 03:45:20 brain-a320ms2h NetworkManager[904]: <info>  [1767854720.8890] device (enp6s0): state change: config -> ip-config (reason 'none', managed-type: 'full')
+jan 08 03:45:20 brain-a320ms2h NetworkManager[904]: <info>  [1767854720.8897] dhcp4 (enp6s0): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767854722.5183] dhcp6 (wlx00e1b011877f): state changed new lease
+jan 08 03:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767854722.8595] dhcp6 (enp6s0): activation: beginning transaction (timeout in 45 seconds)
+jan 08 03:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767854722.8616] policy: set 'Conexão cabeada 1' (enp6s0) as default for IPv6 routing and DNS
+jan 08 03:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767854722.8632] dhcp6 (enp6s0): state changed new lease
+jan 08 03:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767854722.9425] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71, acd pending
+jan 08 03:45:23 brain-a320ms2h NetworkManager[904]: <info>  [1767854723.0859] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 03:45:23 brain-a320ms2h NetworkManager[904]: <info>  [1767854723.0872] manager: NetworkManager state is now CONNECTING
+jan 08 03:45:23 brain-a320ms2h NetworkManager[904]: <info>  [1767854723.0876] policy: set 'Conexão cabeada 1' (enp6s0) as default for IPv4 routing and DNS
+jan 08 03:45:23 brain-a320ms2h NetworkManager[904]: <info>  [1767854723.1005] device (enp6s0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+jan 08 03:45:23 brain-a320ms2h NetworkManager[904]: <info>  [1767854723.1022] device (enp6s0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+jan 08 03:45:23 brain-a320ms2h NetworkManager[904]: <info>  [1767854723.1023] device (enp6s0): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+jan 08 03:45:23 brain-a320ms2h NetworkManager[904]: <info>  [1767854723.1026] manager: NetworkManager state is now CONNECTED_GLOBAL
+jan 08 03:45:23 brain-a320ms2h NetworkManager[904]: <info>  [1767854723.1028] device (enp6s0): Activation: successful, device activated.
+jan 08 03:45:23 brain-a320ms2h NetworkManager[904]: <info>  [1767854723.1033] manager: startup complete
+jan 08 03:45:24 brain-a320ms2h NetworkManager[904]: <info>  [1767854724.0554] device (enp6s0): conflict detected for IP address 192.168.1.71 with host 00:E1:B0:11:87:7F
+jan 08 03:45:24 brain-a320ms2h NetworkManager[904]: <info>  [1767854724.5802] agent-manager: agent[e11a2297171d3fd5,:1.49/org.freedesktop.nm-applet/1000]: agent registered
+jan 08 03:45:31 brain-a320ms2h NetworkManager[904]: <info>  [1767854731.6018] manager: (docker0): new Bridge device (/org/freedesktop/NetworkManager/Devices/5)
+jan 08 03:45:31 brain-a320ms2h NetworkManager[904]: <info>  [1767854731.7069] device (docker0): state change: unmanaged -> unavailable (reason 'connection-assumed', managed-type: 'external')
+jan 08 03:45:31 brain-a320ms2h NetworkManager[904]: <info>  [1767854731.7073] device (docker0): state change: unavailable -> disconnected (reason 'connection-assumed', managed-type: 'external')
+jan 08 03:45:31 brain-a320ms2h NetworkManager[904]: <info>  [1767854731.7079] device (docker0): Activation: starting connection 'docker0' (c1812f9a-e977-42af-90ba-0627ea2f2571)
+jan 08 03:45:31 brain-a320ms2h NetworkManager[904]: <info>  [1767854731.7082] device (docker0): state change: disconnected -> prepare (reason 'none', managed-type: 'external')
+jan 08 03:45:31 brain-a320ms2h NetworkManager[904]: <info>  [1767854731.7084] device (docker0): state change: prepare -> config (reason 'none', managed-type: 'external')
+jan 08 03:45:31 brain-a320ms2h NetworkManager[904]: <info>  [1767854731.7085] device (docker0): state change: config -> ip-config (reason 'none', managed-type: 'external')
+jan 08 03:45:31 brain-a320ms2h NetworkManager[904]: <info>  [1767854731.7087] device (docker0): state change: ip-config -> ip-check (reason 'none', managed-type: 'external')
+jan 08 03:45:31 brain-a320ms2h NetworkManager[904]: <info>  [1767854731.7358] device (docker0): state change: ip-check -> secondaries (reason 'none', managed-type: 'external')
+jan 08 03:45:31 brain-a320ms2h NetworkManager[904]: <info>  [1767854731.7360] device (docker0): state change: secondaries -> activated (reason 'none', managed-type: 'external')
+jan 08 03:45:31 brain-a320ms2h NetworkManager[904]: <info>  [1767854731.7366] device (docker0): Activation: successful, device activated.
+jan 08 04:15:17 brain-a320ms2h NetworkManager[904]: <info>  [1767856517.8597] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66
+jan 08 04:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767856522.9204] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 04:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767856522.9219] device (enp6s0): conflict detected for IP address 192.168.1.71 with host 00:E1:B0:11:87:7F
+jan 08 04:22:45 brain-a320ms2h NetworkManager[904]: <info>  [1767856965.3311] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 04:22:45 brain-a320ms2h NetworkManager[904]: <info>  [1767856965.4283] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:22:46 brain-a320ms2h NetworkManager[904]: <info>  [1767856966.5473] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:22:47 brain-a320ms2h NetworkManager[904]: <info>  [1767856967.1884] device (wlx00e1b011877f): supplicant interface state: authenticating -> disconnected
+jan 08 04:22:47 brain-a320ms2h NetworkManager[904]: <info>  [1767856967.6894] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:22:54 brain-a320ms2h NetworkManager[904]: <info>  [1767856974.9561] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:22:54 brain-a320ms2h NetworkManager[904]: <info>  [1767856974.9591] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 04:22:55 brain-a320ms2h NetworkManager[904]: <info>  [1767856975.0035] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 04:22:59 brain-a320ms2h NetworkManager[904]: <info>  [1767856979.9280] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 04:22:59 brain-a320ms2h NetworkManager[904]: <info>  [1767856979.9555] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 04:22:59 brain-a320ms2h NetworkManager[904]: <info>  [1767856979.9566] device (wlx00e1b011877f): ip:dhcp4: restarting
+jan 08 04:22:59 brain-a320ms2h NetworkManager[904]: <info>  [1767856979.9566] dhcp4 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 04:22:59 brain-a320ms2h NetworkManager[904]: <info>  [1767856979.9566] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:22:59 brain-a320ms2h NetworkManager[904]: <info>  [1767856979.9567] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 04:22:59 brain-a320ms2h NetworkManager[904]: <info>  [1767856979.9567] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:22:59 brain-a320ms2h NetworkManager[904]: <info>  [1767856979.9568] device (wlx00e1b011877f): ip:dhcp6: restarting
+jan 08 04:22:59 brain-a320ms2h NetworkManager[904]: <info>  [1767856979.9568] dhcp6 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 04:22:59 brain-a320ms2h NetworkManager[904]: <info>  [1767856979.9575] dhcp6 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:22:59 brain-a320ms2h NetworkManager[904]: <info>  [1767856979.9575] dhcp6 (wlx00e1b011877f): state changed no lease
+jan 08 04:22:59 brain-a320ms2h NetworkManager[904]: <info>  [1767856979.9575] dhcp6 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:23:13 brain-a320ms2h NetworkManager[904]: <info>  [1767856993.8616] dhcp6 (wlx00e1b011877f): state changed new lease
+jan 08 04:23:14 brain-a320ms2h NetworkManager[904]: <info>  [1767856994.9470] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 04:23:19 brain-a320ms2h NetworkManager[904]: <info>  [1767856999.2413] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66, acd pending
+jan 08 04:23:19 brain-a320ms2h NetworkManager[904]: <info>  [1767856999.3860] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66
+jan 08 04:23:23 brain-a320ms2h NetworkManager[904]: <info>  [1767857003.3530] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 04:23:23 brain-a320ms2h NetworkManager[904]: <info>  [1767857003.4474] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:23:24 brain-a320ms2h NetworkManager[904]: <info>  [1767857004.5734] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:23:25 brain-a320ms2h NetworkManager[904]: <info>  [1767857005.2122] device (wlx00e1b011877f): supplicant interface state: authenticating -> disconnected
+jan 08 04:23:25 brain-a320ms2h NetworkManager[904]: <info>  [1767857005.7156] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:23:32 brain-a320ms2h NetworkManager[904]: <info>  [1767857012.9614] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:23:33 brain-a320ms2h NetworkManager[904]: <info>  [1767857013.5932] device (wlx00e1b011877f): supplicant interface state: authenticating -> disconnected
+jan 08 04:23:34 brain-a320ms2h NetworkManager[904]: <info>  [1767857014.5962] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:23:38 brain-a320ms2h NetworkManager[904]: <warn>  [1767857018.9490] device (wlx00e1b011877f): link timed out.
+jan 08 04:23:38 brain-a320ms2h NetworkManager[904]: <info>  [1767857018.9494] device (wlx00e1b011877f): state change: activated -> failed (reason 'ssid-not-found', managed-type: 'full')
+jan 08 04:23:38 brain-a320ms2h NetworkManager[904]: <warn>  [1767857018.9505] device (wlx00e1b011877f): Activation: failed for connection 'Luciana oi fibra 2G'
+jan 08 04:23:38 brain-a320ms2h NetworkManager[904]: <info>  [1767857018.9520] device (wlx00e1b011877f): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+jan 08 04:23:38 brain-a320ms2h NetworkManager[904]: <info>  [1767857018.9625] dhcp4 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 04:23:38 brain-a320ms2h NetworkManager[904]: <info>  [1767857018.9626] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:23:38 brain-a320ms2h NetworkManager[904]: <info>  [1767857018.9626] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 04:23:38 brain-a320ms2h NetworkManager[904]: <info>  [1767857018.9636] dhcp6 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 04:23:38 brain-a320ms2h NetworkManager[904]: <info>  [1767857018.9636] dhcp6 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:23:38 brain-a320ms2h NetworkManager[904]: <info>  [1767857018.9636] dhcp6 (wlx00e1b011877f): state changed no lease
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.0872] device (wlx00e1b011877f): supplicant interface state: scanning -> disconnected
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.0873] policy: auto-activating connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.0890] device (wlx00e1b011877f): Activation: starting connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.0893] device (wlx00e1b011877f): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.0897] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.0911] device (wlx00e1b011877f): Activation: (wifi) access point 'Luciana oi fibra 2G' has security, but secrets are required.
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.0913] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.0916] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.0935] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.0949] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.0954] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.0958] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.0958] Config: added 'scan_ssid' value '1'
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.0958] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.0958] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.0958] Config: added 'auth_alg' value 'OPEN'
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.0958] Config: added 'psk' value '<hidden>'
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.1143] device (wlx00e1b011877f): supplicant interface state: disconnected -> authenticating
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.1332] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 04:23:40 brain-a320ms2h NetworkManager[904]: <info>  [1767857020.7711] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 04:23:45 brain-a320ms2h NetworkManager[904]: <info>  [1767857025.7678] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:23:50 brain-a320ms2h NetworkManager[904]: <info>  [1767857030.8971] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:23:50 brain-a320ms2h NetworkManager[904]: <info>  [1767857030.9033] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 04:23:51 brain-a320ms2h NetworkManager[904]: <info>  [1767857031.3655] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 04:23:55 brain-a320ms2h NetworkManager[904]: <info>  [1767857035.4098] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 04:23:55 brain-a320ms2h NetworkManager[904]: <info>  [1767857035.4455] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 04:23:55 brain-a320ms2h NetworkManager[904]: <info>  [1767857035.4455] device (wlx00e1b011877f): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Luciana oi fibra 2G"
+jan 08 04:23:55 brain-a320ms2h NetworkManager[904]: <info>  [1767857035.4457] device (wlx00e1b011877f): state change: config -> ip-config (reason 'none', managed-type: 'full')
+jan 08 04:23:55 brain-a320ms2h NetworkManager[904]: <info>  [1767857035.4471] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:23:55 brain-a320ms2h NetworkManager[904]: <info>  [1767857035.5089] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66, acd pending
+jan 08 04:23:55 brain-a320ms2h NetworkManager[904]: <info>  [1767857035.6780] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66
+jan 08 04:23:55 brain-a320ms2h NetworkManager[904]: <info>  [1767857035.6926] device (wlx00e1b011877f): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+jan 08 04:23:55 brain-a320ms2h NetworkManager[904]: <info>  [1767857035.7139] device (wlx00e1b011877f): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+jan 08 04:23:55 brain-a320ms2h NetworkManager[904]: <info>  [1767857035.7141] device (wlx00e1b011877f): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+jan 08 04:23:55 brain-a320ms2h NetworkManager[904]: <info>  [1767857035.7148] device (wlx00e1b011877f): Activation: successful, device activated.
+jan 08 04:24:02 brain-a320ms2h NetworkManager[904]: <info>  [1767857042.3239] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 04:24:02 brain-a320ms2h NetworkManager[904]: <info>  [1767857042.4213] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:24:03 brain-a320ms2h NetworkManager[904]: <info>  [1767857043.5412] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:24:03 brain-a320ms2h NetworkManager[904]: <info>  [1767857043.5443] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 04:24:03 brain-a320ms2h NetworkManager[904]: <info>  [1767857043.6252] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 04:24:05 brain-a320ms2h NetworkManager[904]: <info>  [1767857045.5535] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 04:24:05 brain-a320ms2h NetworkManager[904]: <info>  [1767857045.5833] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 04:24:05 brain-a320ms2h NetworkManager[904]: <info>  [1767857045.5841] device (wlx00e1b011877f): ip:dhcp4: restarting
+jan 08 04:24:05 brain-a320ms2h NetworkManager[904]: <info>  [1767857045.5899] dhcp4 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 04:24:05 brain-a320ms2h NetworkManager[904]: <info>  [1767857045.5900] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:24:05 brain-a320ms2h NetworkManager[904]: <info>  [1767857045.5900] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 04:24:05 brain-a320ms2h NetworkManager[904]: <info>  [1767857045.5901] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:24:20 brain-a320ms2h NetworkManager[904]: <info>  [1767857060.9497] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 04:24:21 brain-a320ms2h NetworkManager[904]: <info>  [1767857061.3239] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 04:24:21 brain-a320ms2h NetworkManager[904]: <info>  [1767857061.4234] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:24:22 brain-a320ms2h NetworkManager[904]: <info>  [1767857062.5483] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:24:23 brain-a320ms2h NetworkManager[904]: <info>  [1767857063.1863] device (wlx00e1b011877f): supplicant interface state: authenticating -> disconnected
+jan 08 04:24:23 brain-a320ms2h NetworkManager[904]: <info>  [1767857063.6884] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:24:24 brain-a320ms2h NetworkManager[904]: <info>  [1767857064.8100] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:24:24 brain-a320ms2h NetworkManager[904]: <info>  [1767857064.8145] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 04:24:24 brain-a320ms2h NetworkManager[904]: <info>  [1767857064.9158] device (wlx00e1b011877f): supplicant interface state: associating -> 4way_handshake
+jan 08 04:24:25 brain-a320ms2h NetworkManager[904]: <info>  [1767857065.9852] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 04:24:25 brain-a320ms2h NetworkManager[904]: <info>  [1767857065.9856] device (wlx00e1b011877f): ip:dhcp4: restarting
+jan 08 04:24:25 brain-a320ms2h NetworkManager[904]: <info>  [1767857065.9899] dhcp4 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 04:24:25 brain-a320ms2h NetworkManager[904]: <info>  [1767857065.9900] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 04:24:25 brain-a320ms2h NetworkManager[904]: <info>  [1767857065.9901] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:24:26 brain-a320ms2h NetworkManager[904]: <info>  [1767857066.0641] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66, acd pending
+jan 08 04:24:26 brain-a320ms2h NetworkManager[904]: <info>  [1767857066.0645] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66
+jan 08 04:24:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857083.3529] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 04:24:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857083.4513] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:24:44 brain-a320ms2h NetworkManager[904]: <info>  [1767857084.5724] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:24:44 brain-a320ms2h NetworkManager[904]: <info>  [1767857084.8001] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 04:24:45 brain-a320ms2h NetworkManager[904]: <info>  [1767857085.4343] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 04:24:45 brain-a320ms2h NetworkManager[904]: <info>  [1767857085.9313] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:24:53 brain-a320ms2h NetworkManager[904]: <info>  [1767857093.1722] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:24:53 brain-a320ms2h NetworkManager[904]: <info>  [1767857093.1756] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 04:24:53 brain-a320ms2h NetworkManager[904]: <info>  [1767857093.8132] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 04:24:54 brain-a320ms2h NetworkManager[904]: <info>  [1767857094.8104] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:24:58 brain-a320ms2h NetworkManager[904]: <warn>  [1767857098.9464] device (wlx00e1b011877f): link timed out.
+jan 08 04:24:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857098.9507] device (wlx00e1b011877f): state change: activated -> failed (reason 'supplicant-timeout', managed-type: 'full')
+jan 08 04:24:58 brain-a320ms2h NetworkManager[904]: <warn>  [1767857098.9516] device (wlx00e1b011877f): Activation: failed for connection 'Luciana oi fibra 2G'
+jan 08 04:24:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857098.9576] device (wlx00e1b011877f): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+jan 08 04:24:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857098.9608] dhcp4 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 04:24:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857098.9614] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:24:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857098.9614] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.0935] device (wlx00e1b011877f): supplicant interface state: scanning -> disconnected
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.0944] policy: auto-activating connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.0953] device (wlx00e1b011877f): Activation: starting connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.0954] device (wlx00e1b011877f): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.0960] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.0965] device (wlx00e1b011877f): Activation: (wifi) access point 'Luciana oi fibra 2G' has security, but secrets are required.
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.0965] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.0968] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.0983] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.0989] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.0994] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.0995] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.0995] Config: added 'scan_ssid' value '1'
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.0996] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.0996] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.0996] Config: added 'auth_alg' value 'OPEN'
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.0996] Config: added 'psk' value '<hidden>'
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.1313] device (wlx00e1b011877f): supplicant interface state: disconnected -> authenticating
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.1772] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 04:25:00 brain-a320ms2h NetworkManager[904]: <info>  [1767857100.3314] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 04:25:04 brain-a320ms2h NetworkManager[904]: <info>  [1767857104.3264] device (wlx00e1b011877f): supplicant interface state: associated -> disconnected
+jan 08 04:25:04 brain-a320ms2h NetworkManager[904]: <info>  [1767857104.4284] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:25:15 brain-a320ms2h NetworkManager[904]: <info>  [1767857115.6803] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:25:15 brain-a320ms2h NetworkManager[904]: <info>  [1767857115.7022] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 04:25:16 brain-a320ms2h NetworkManager[904]: <info>  [1767857116.3422] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 04:25:24 brain-a320ms2h NetworkManager[904]: <warn>  [1767857124.9467] device (wlx00e1b011877f): Activation: (wifi) association took too long
+jan 08 04:25:24 brain-a320ms2h NetworkManager[904]: <info>  [1767857124.9467] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 04:25:24 brain-a320ms2h NetworkManager[904]: <info>  [1767857124.9470] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 04:25:24 brain-a320ms2h NetworkManager[904]: <warn>  [1767857124.9473] device (wlx00e1b011877f): Activation: (wifi) asking for new secrets
+jan 08 04:25:24 brain-a320ms2h NetworkManager[904]: <info>  [1767857124.9489] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 04:25:24 brain-a320ms2h NetworkManager[904]: <info>  [1767857124.9495] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 04:25:24 brain-a320ms2h NetworkManager[904]: <info>  [1767857124.9506] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 04:25:24 brain-a320ms2h NetworkManager[904]: <info>  [1767857124.9606] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 04:25:24 brain-a320ms2h NetworkManager[904]: <info>  [1767857124.9607] Config: added 'scan_ssid' value '1'
+jan 08 04:25:24 brain-a320ms2h NetworkManager[904]: <info>  [1767857124.9607] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 04:25:24 brain-a320ms2h NetworkManager[904]: <info>  [1767857124.9607] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 04:25:24 brain-a320ms2h NetworkManager[904]: <info>  [1767857124.9608] Config: added 'auth_alg' value 'OPEN'
+jan 08 04:25:24 brain-a320ms2h NetworkManager[904]: <info>  [1767857124.9608] Config: added 'psk' value '<hidden>'
+jan 08 04:25:24 brain-a320ms2h NetworkManager[904]: <info>  [1767857124.9647] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:25:25 brain-a320ms2h NetworkManager[904]: <info>  [1767857125.0093] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:25:25 brain-a320ms2h NetworkManager[904]: <info>  [1767857125.0846] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 04:25:25 brain-a320ms2h NetworkManager[904]: <info>  [1767857125.7233] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 04:25:35 brain-a320ms2h NetworkManager[904]: <info>  [1767857135.7183] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:25:36 brain-a320ms2h NetworkManager[904]: <info>  [1767857136.8463] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:25:37 brain-a320ms2h NetworkManager[904]: <info>  [1767857137.4854] device (wlx00e1b011877f): supplicant interface state: authenticating -> disconnected
+jan 08 04:25:47 brain-a320ms2h NetworkManager[904]: <info>  [1767857147.4908] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:25:49 brain-a320ms2h NetworkManager[904]: <warn>  [1767857149.9472] device (wlx00e1b011877f): Activation: (wifi) association took too long
+jan 08 04:25:49 brain-a320ms2h NetworkManager[904]: <info>  [1767857149.9473] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 04:25:49 brain-a320ms2h NetworkManager[904]: <info>  [1767857149.9476] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 04:25:49 brain-a320ms2h NetworkManager[904]: <warn>  [1767857149.9479] device (wlx00e1b011877f): Activation: (wifi) asking for new secrets
+jan 08 04:25:49 brain-a320ms2h NetworkManager[904]: <info>  [1767857149.9493] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 04:25:49 brain-a320ms2h NetworkManager[904]: <info>  [1767857149.9504] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 04:25:49 brain-a320ms2h NetworkManager[904]: <info>  [1767857149.9519] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 04:25:49 brain-a320ms2h NetworkManager[904]: <info>  [1767857149.9522] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 04:25:49 brain-a320ms2h NetworkManager[904]: <info>  [1767857149.9523] Config: added 'scan_ssid' value '1'
+jan 08 04:25:49 brain-a320ms2h NetworkManager[904]: <info>  [1767857149.9523] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 04:25:49 brain-a320ms2h NetworkManager[904]: <info>  [1767857149.9524] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 04:25:49 brain-a320ms2h NetworkManager[904]: <info>  [1767857149.9524] Config: added 'auth_alg' value 'OPEN'
+jan 08 04:25:49 brain-a320ms2h NetworkManager[904]: <info>  [1767857149.9524] Config: added 'psk' value '<hidden>'
+jan 08 04:26:14 brain-a320ms2h NetworkManager[904]: <warn>  [1767857174.9471] device (wlx00e1b011877f): Activation: (wifi) association took too long, failing activation
+jan 08 04:26:14 brain-a320ms2h NetworkManager[904]: <info>  [1767857174.9472] device (wlx00e1b011877f): state change: config -> failed (reason 'ssid-not-found', managed-type: 'full')
+jan 08 04:26:14 brain-a320ms2h NetworkManager[904]: <warn>  [1767857174.9478] device (wlx00e1b011877f): Activation: failed for connection 'Luciana oi fibra 2G'
+jan 08 04:26:14 brain-a320ms2h NetworkManager[904]: <info>  [1767857174.9481] device (wlx00e1b011877f): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+jan 08 04:26:14 brain-a320ms2h NetworkManager[904]: <info>  [1767857174.9532] device (wlx00e1b011877f): supplicant interface state: scanning -> disconnected
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.0777] policy: auto-activating connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.0785] device (wlx00e1b011877f): Activation: starting connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.0787] device (wlx00e1b011877f): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.0797] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.0807] device (wlx00e1b011877f): Activation: (wifi) access point 'Luciana oi fibra 2G' has security, but secrets are required.
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.0808] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.0810] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.0835] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.0844] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.0852] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.0856] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.0858] Config: added 'scan_ssid' value '1'
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.0859] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.0859] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.0860] Config: added 'auth_alg' value 'OPEN'
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.0860] Config: added 'psk' value '<hidden>'
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.1088] device (wlx00e1b011877f): supplicant interface state: disconnected -> authenticating
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.1203] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 04:26:43 brain-a320ms2h NetworkManager[904]: <info>  [1767857203.7583] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 04:26:53 brain-a320ms2h NetworkManager[904]: <info>  [1767857213.7624] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:26:54 brain-a320ms2h NetworkManager[904]: <info>  [1767857214.8870] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:26:55 brain-a320ms2h NetworkManager[904]: <info>  [1767857215.5244] device (wlx00e1b011877f): supplicant interface state: authenticating -> disconnected
+jan 08 04:27:05 brain-a320ms2h NetworkManager[904]: <info>  [1767857225.5262] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:27:07 brain-a320ms2h NetworkManager[904]: <warn>  [1767857227.9471] device (wlx00e1b011877f): Activation: (wifi) association took too long
+jan 08 04:27:07 brain-a320ms2h NetworkManager[904]: <info>  [1767857227.9472] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 04:27:07 brain-a320ms2h NetworkManager[904]: <info>  [1767857227.9475] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 04:27:07 brain-a320ms2h NetworkManager[904]: <warn>  [1767857227.9478] device (wlx00e1b011877f): Activation: (wifi) asking for new secrets
+jan 08 04:27:07 brain-a320ms2h NetworkManager[904]: <info>  [1767857227.9505] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 04:27:07 brain-a320ms2h NetworkManager[904]: <info>  [1767857227.9511] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 04:27:07 brain-a320ms2h NetworkManager[904]: <info>  [1767857227.9515] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 04:27:07 brain-a320ms2h NetworkManager[904]: <info>  [1767857227.9516] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 04:27:07 brain-a320ms2h NetworkManager[904]: <info>  [1767857227.9516] Config: added 'scan_ssid' value '1'
+jan 08 04:27:07 brain-a320ms2h NetworkManager[904]: <info>  [1767857227.9517] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 04:27:07 brain-a320ms2h NetworkManager[904]: <info>  [1767857227.9517] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 04:27:07 brain-a320ms2h NetworkManager[904]: <info>  [1767857227.9517] Config: added 'auth_alg' value 'OPEN'
+jan 08 04:27:07 brain-a320ms2h NetworkManager[904]: <info>  [1767857227.9517] Config: added 'psk' value '<hidden>'
+jan 08 04:27:07 brain-a320ms2h NetworkManager[904]: <info>  [1767857227.9845] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:27:08 brain-a320ms2h NetworkManager[904]: <info>  [1767857228.6184] device (wlx00e1b011877f): supplicant interface state: authenticating -> disconnected
+jan 08 04:27:18 brain-a320ms2h NetworkManager[904]: <info>  [1767857238.6223] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:27:19 brain-a320ms2h NetworkManager[904]: <info>  [1767857239.7511] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:27:19 brain-a320ms2h NetworkManager[904]: <info>  [1767857239.7943] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 04:27:19 brain-a320ms2h NetworkManager[904]: <info>  [1767857239.8673] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 04:27:23 brain-a320ms2h NetworkManager[904]: <info>  [1767857243.3381] device (wlx00e1b011877f): supplicant interface state: associated -> disconnected
+jan 08 04:27:23 brain-a320ms2h NetworkManager[904]: <info>  [1767857243.4414] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:27:32 brain-a320ms2h NetworkManager[904]: <warn>  [1767857252.9481] device (wlx00e1b011877f): Activation: (wifi) association took too long
+jan 08 04:27:32 brain-a320ms2h NetworkManager[904]: <info>  [1767857252.9482] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 04:27:32 brain-a320ms2h NetworkManager[904]: <info>  [1767857252.9485] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 04:27:32 brain-a320ms2h NetworkManager[904]: <warn>  [1767857252.9487] device (wlx00e1b011877f): Activation: (wifi) asking for new secrets
+jan 08 04:27:32 brain-a320ms2h NetworkManager[904]: <info>  [1767857252.9508] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 04:27:32 brain-a320ms2h NetworkManager[904]: <info>  [1767857252.9523] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 04:27:32 brain-a320ms2h NetworkManager[904]: <info>  [1767857252.9528] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 04:27:32 brain-a320ms2h NetworkManager[904]: <info>  [1767857252.9529] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 04:27:32 brain-a320ms2h NetworkManager[904]: <info>  [1767857252.9529] Config: added 'scan_ssid' value '1'
+jan 08 04:27:32 brain-a320ms2h NetworkManager[904]: <info>  [1767857252.9529] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 04:27:32 brain-a320ms2h NetworkManager[904]: <info>  [1767857252.9530] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 04:27:32 brain-a320ms2h NetworkManager[904]: <info>  [1767857252.9530] Config: added 'auth_alg' value 'OPEN'
+jan 08 04:27:32 brain-a320ms2h NetworkManager[904]: <info>  [1767857252.9530] Config: added 'psk' value '<hidden>'
+jan 08 04:27:34 brain-a320ms2h NetworkManager[904]: <info>  [1767857254.0992] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:27:34 brain-a320ms2h NetworkManager[904]: <info>  [1767857254.7414] device (wlx00e1b011877f): supplicant interface state: authenticating -> disconnected
+jan 08 04:27:44 brain-a320ms2h NetworkManager[904]: <info>  [1767857264.7444] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:27:57 brain-a320ms2h NetworkManager[904]: <warn>  [1767857277.9471] device (wlx00e1b011877f): Activation: (wifi) association took too long, failing activation
+jan 08 04:27:57 brain-a320ms2h NetworkManager[904]: <info>  [1767857277.9472] device (wlx00e1b011877f): state change: config -> failed (reason 'ssid-not-found', managed-type: 'full')
+jan 08 04:27:57 brain-a320ms2h NetworkManager[904]: <warn>  [1767857277.9481] device (wlx00e1b011877f): Activation: failed for connection 'Luciana oi fibra 2G'
+jan 08 04:27:57 brain-a320ms2h NetworkManager[904]: <info>  [1767857277.9484] device (wlx00e1b011877f): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+jan 08 04:27:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857278.1143] device (wlx00e1b011877f): supplicant interface state: scanning -> inactive
+jan 08 04:27:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857278.4617] policy: auto-activating connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 04:27:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857278.4625] device (wlx00e1b011877f): Activation: starting connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 04:27:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857278.4627] device (wlx00e1b011877f): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+jan 08 04:27:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857278.4634] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 04:27:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857278.4643] device (wlx00e1b011877f): Activation: (wifi) access point 'Luciana oi fibra 2G' has security, but secrets are required.
+jan 08 04:27:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857278.4643] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 04:27:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857278.4651] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 04:27:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857278.4667] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 04:27:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857278.4674] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 04:27:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857278.4685] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 04:27:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857278.4688] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 04:27:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857278.4693] Config: added 'scan_ssid' value '1'
+jan 08 04:27:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857278.4693] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 04:27:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857278.4694] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 04:27:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857278.4694] Config: added 'auth_alg' value 'OPEN'
+jan 08 04:27:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857278.4694] Config: added 'psk' value '<hidden>'
+jan 08 04:27:58 brain-a320ms2h NetworkManager[904]: <info>  [1767857278.4987] device (wlx00e1b011877f): supplicant interface state: inactive -> authenticating
+jan 08 04:27:59 brain-a320ms2h NetworkManager[904]: <info>  [1767857279.1414] device (wlx00e1b011877f): supplicant interface state: authenticating -> disconnected
+jan 08 04:28:09 brain-a320ms2h NetworkManager[904]: <info>  [1767857289.1453] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:28:16 brain-a320ms2h NetworkManager[904]: <info>  [1767857296.3941] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:28:16 brain-a320ms2h NetworkManager[904]: <info>  [1767857296.3986] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 04:28:16 brain-a320ms2h NetworkManager[904]: <info>  [1767857296.4517] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 04:28:16 brain-a320ms2h NetworkManager[904]: <info>  [1767857296.5945] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 04:28:16 brain-a320ms2h NetworkManager[904]: <info>  [1767857296.6782] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 04:28:16 brain-a320ms2h NetworkManager[904]: <info>  [1767857296.6783] device (wlx00e1b011877f): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Luciana oi fibra 2G"
+jan 08 04:28:16 brain-a320ms2h NetworkManager[904]: <info>  [1767857296.6785] device (wlx00e1b011877f): state change: config -> ip-config (reason 'none', managed-type: 'full')
+jan 08 04:28:16 brain-a320ms2h NetworkManager[904]: <info>  [1767857296.6796] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:28:18 brain-a320ms2h NetworkManager[904]: <info>  [1767857298.7234] dhcp6 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:28:18 brain-a320ms2h NetworkManager[904]: <info>  [1767857298.8193] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66, acd pending
+jan 08 04:28:18 brain-a320ms2h NetworkManager[904]: <info>  [1767857298.9650] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66
+jan 08 04:28:18 brain-a320ms2h NetworkManager[904]: <info>  [1767857298.9875] device (wlx00e1b011877f): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+jan 08 04:28:18 brain-a320ms2h NetworkManager[904]: <info>  [1767857298.9915] device (wlx00e1b011877f): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+jan 08 04:28:18 brain-a320ms2h NetworkManager[904]: <info>  [1767857298.9919] device (wlx00e1b011877f): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+jan 08 04:28:18 brain-a320ms2h NetworkManager[904]: <info>  [1767857298.9931] device (wlx00e1b011877f): Activation: successful, device activated.
+jan 08 04:28:20 brain-a320ms2h NetworkManager[904]: <info>  [1767857300.4822] dhcp6 (wlx00e1b011877f): state changed new lease
+jan 08 04:29:04 brain-a320ms2h NetworkManager[904]: <info>  [1767857344.3345] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 04:29:04 brain-a320ms2h NetworkManager[904]: <info>  [1767857344.4383] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:29:05 brain-a320ms2h NetworkManager[904]: <info>  [1767857345.5602] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:29:06 brain-a320ms2h NetworkManager[904]: <info>  [1767857346.1995] device (wlx00e1b011877f): supplicant interface state: authenticating -> disconnected
+jan 08 04:29:06 brain-a320ms2h NetworkManager[904]: <info>  [1767857346.7022] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:29:19 brain-a320ms2h NetworkManager[904]: <warn>  [1767857359.9469] device (wlx00e1b011877f): link timed out.
+jan 08 04:29:19 brain-a320ms2h NetworkManager[904]: <info>  [1767857359.9474] device (wlx00e1b011877f): state change: activated -> failed (reason 'ssid-not-found', managed-type: 'full')
+jan 08 04:29:19 brain-a320ms2h NetworkManager[904]: <warn>  [1767857359.9483] device (wlx00e1b011877f): Activation: failed for connection 'Luciana oi fibra 2G'
+jan 08 04:29:19 brain-a320ms2h NetworkManager[904]: <info>  [1767857359.9500] device (wlx00e1b011877f): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+jan 08 04:29:19 brain-a320ms2h NetworkManager[904]: <info>  [1767857359.9533] dhcp4 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 04:29:19 brain-a320ms2h NetworkManager[904]: <info>  [1767857359.9533] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:29:19 brain-a320ms2h NetworkManager[904]: <info>  [1767857359.9533] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 04:29:19 brain-a320ms2h NetworkManager[904]: <info>  [1767857359.9536] dhcp6 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 04:29:19 brain-a320ms2h NetworkManager[904]: <info>  [1767857359.9536] dhcp6 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:29:19 brain-a320ms2h NetworkManager[904]: <info>  [1767857359.9536] dhcp6 (wlx00e1b011877f): state changed no lease
+jan 08 04:29:20 brain-a320ms2h NetworkManager[904]: <info>  [1767857360.0737] device (wlx00e1b011877f): supplicant interface state: scanning -> inactive
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1056] policy: auto-activating connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1076] device (wlx00e1b011877f): Activation: starting connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1080] device (wlx00e1b011877f): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1088] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1096] device (wlx00e1b011877f): Activation: (wifi) access point 'Luciana oi fibra 2G' has security, but secrets are required.
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1097] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1106] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1127] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1135] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1141] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1142] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1142] Config: added 'scan_ssid' value '1'
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1142] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1143] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1143] Config: added 'auth_alg' value 'OPEN'
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1143] Config: added 'psk' value '<hidden>'
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1369] device (wlx00e1b011877f): supplicant interface state: inactive -> authenticating
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1383] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.1916] device (wlx00e1b011877f): supplicant interface state: associating -> 4way_handshake
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.2266] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.2267] device (wlx00e1b011877f): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Luciana oi fibra 2G"
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.2270] device (wlx00e1b011877f): state change: config -> ip-config (reason 'none', managed-type: 'full')
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.2284] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.4174] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66, acd pending
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.5924] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.6779] device (wlx00e1b011877f): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.6810] device (wlx00e1b011877f): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.6812] device (wlx00e1b011877f): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+jan 08 04:44:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858257.6822] device (wlx00e1b011877f): Activation: successful, device activated.
+jan 08 04:44:21 brain-a320ms2h NetworkManager[904]: <info>  [1767858261.5246] device (wlx00e1b011877f): conflict detected for IP address 192.168.1.66 with host B4:2E:99:F2:DE:54
+jan 08 04:45:23 brain-a320ms2h NetworkManager[904]: <info>  [1767858323.0411] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 04:45:23 brain-a320ms2h NetworkManager[904]: <info>  [1767858323.0430] device (enp6s0): conflict detected for IP address 192.168.1.71 with host 00:E1:B0:11:87:7F
+jan 08 04:45:56 brain-a320ms2h NetworkManager[904]: <info>  [1767858356.7402] dhcp6 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:46:26 brain-a320ms2h NetworkManager[904]: <info>  [1767858386.0190] dhcp6 (wlx00e1b011877f): state changed new lease
+jan 08 04:54:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858857.1700] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 04:54:17 brain-a320ms2h NetworkManager[904]: <info>  [1767858857.2660] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:54:18 brain-a320ms2h NetworkManager[904]: <info>  [1767858858.3891] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:54:19 brain-a320ms2h NetworkManager[904]: <info>  [1767858859.0244] device (wlx00e1b011877f): supplicant interface state: authenticating -> disconnected
+jan 08 04:54:19 brain-a320ms2h NetworkManager[904]: <info>  [1767858859.5256] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:54:31 brain-a320ms2h NetworkManager[904]: <warn>  [1767858871.9460] device (wlx00e1b011877f): link timed out.
+jan 08 04:54:31 brain-a320ms2h NetworkManager[904]: <info>  [1767858871.9466] device (wlx00e1b011877f): state change: activated -> failed (reason 'ssid-not-found', managed-type: 'full')
+jan 08 04:54:31 brain-a320ms2h NetworkManager[904]: <warn>  [1767858871.9481] device (wlx00e1b011877f): Activation: failed for connection 'Luciana oi fibra 2G'
+jan 08 04:54:31 brain-a320ms2h NetworkManager[904]: <info>  [1767858871.9515] device (wlx00e1b011877f): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+jan 08 04:54:31 brain-a320ms2h NetworkManager[904]: <info>  [1767858871.9531] dhcp4 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 04:54:31 brain-a320ms2h NetworkManager[904]: <info>  [1767858871.9531] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:54:31 brain-a320ms2h NetworkManager[904]: <info>  [1767858871.9532] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 04:54:31 brain-a320ms2h NetworkManager[904]: <info>  [1767858871.9541] dhcp6 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 04:54:31 brain-a320ms2h NetworkManager[904]: <info>  [1767858871.9541] dhcp6 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:54:31 brain-a320ms2h NetworkManager[904]: <info>  [1767858871.9541] dhcp6 (wlx00e1b011877f): state changed no lease
+jan 08 04:54:32 brain-a320ms2h NetworkManager[904]: <info>  [1767858872.9046] device (wlx00e1b011877f): supplicant interface state: scanning -> inactive
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.0775] policy: auto-activating connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.0791] device (wlx00e1b011877f): Activation: starting connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.0792] device (wlx00e1b011877f): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.0798] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.0804] device (wlx00e1b011877f): Activation: (wifi) access point 'Luciana oi fibra 2G' has security, but secrets are required.
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.0805] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.0807] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.0823] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.0828] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.0838] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.0839] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.0839] Config: added 'scan_ssid' value '1'
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.0839] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.0840] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.0840] Config: added 'auth_alg' value 'OPEN'
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.0840] Config: added 'psk' value '<hidden>'
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.1064] device (wlx00e1b011877f): supplicant interface state: inactive -> authenticating
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.1100] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 04:56:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859006.7453] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 04:56:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859007.7414] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 04:57:01 brain-a320ms2h NetworkManager[904]: <info>  [1767859021.1256] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 04:57:01 brain-a320ms2h NetworkManager[904]: <info>  [1767859021.1302] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 04:57:01 brain-a320ms2h NetworkManager[904]: <info>  [1767859021.1678] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 04:57:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859022.1365] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 04:57:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859022.1710] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 04:57:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859022.1710] device (wlx00e1b011877f): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Luciana oi fibra 2G"
+jan 08 04:57:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859022.1712] device (wlx00e1b011877f): state change: config -> ip-config (reason 'none', managed-type: 'full')
+jan 08 04:57:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859022.1718] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:57:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859022.5783] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66, acd pending
+jan 08 04:57:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859022.7319] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66
+jan 08 04:57:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859022.7466] device (wlx00e1b011877f): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+jan 08 04:57:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859022.7660] device (wlx00e1b011877f): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+jan 08 04:57:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859022.7662] device (wlx00e1b011877f): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+jan 08 04:57:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859022.7672] device (wlx00e1b011877f): Activation: successful, device activated.
+jan 08 04:57:06 brain-a320ms2h NetworkManager[904]: <info>  [1767859026.8919] device (wlx00e1b011877f): conflict detected for IP address 192.168.1.66 with host B4:2E:99:F2:DE:54
+jan 08 04:57:09 brain-a320ms2h NetworkManager[904]: <info>  [1767859029.4843] dhcp6 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 04:57:24 brain-a320ms2h NetworkManager[904]: <info>  [1767859044.0856] dhcp6 (wlx00e1b011877f): state changed new lease
+jan 08 05:02:30 brain-a320ms2h NetworkManager[904]: <info>  [1767859350.3438] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 05:02:30 brain-a320ms2h NetworkManager[904]: <info>  [1767859350.4442] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:02:31 brain-a320ms2h NetworkManager[904]: <info>  [1767859351.5672] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:02:31 brain-a320ms2h NetworkManager[904]: <info>  [1767859351.5832] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:02:32 brain-a320ms2h NetworkManager[904]: <info>  [1767859352.2170] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 05:02:32 brain-a320ms2h NetworkManager[904]: <info>  [1767859352.7142] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:02:39 brain-a320ms2h NetworkManager[904]: <info>  [1767859359.9652] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:02:40 brain-a320ms2h NetworkManager[904]: <info>  [1767859360.0908] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:02:40 brain-a320ms2h NetworkManager[904]: <info>  [1767859360.4574] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 05:02:44 brain-a320ms2h NetworkManager[904]: <info>  [1767859364.3534] device (wlx00e1b011877f): supplicant interface state: associated -> disconnected
+jan 08 05:02:44 brain-a320ms2h NetworkManager[904]: <info>  [1767859364.4544] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:02:45 brain-a320ms2h NetworkManager[904]: <info>  [1767859365.5854] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:02:45 brain-a320ms2h NetworkManager[904]: <info>  [1767859365.6334] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:02:45 brain-a320ms2h NetworkManager[904]: <warn>  [1767859365.9461] device (wlx00e1b011877f): link timed out.
+jan 08 05:02:45 brain-a320ms2h NetworkManager[904]: <info>  [1767859365.9464] device (wlx00e1b011877f): state change: activated -> failed (reason 'supplicant-timeout', managed-type: 'full')
+jan 08 05:02:45 brain-a320ms2h NetworkManager[904]: <warn>  [1767859365.9470] device (wlx00e1b011877f): Activation: failed for connection 'Luciana oi fibra 2G'
+jan 08 05:02:45 brain-a320ms2h NetworkManager[904]: <info>  [1767859365.9494] device (wlx00e1b011877f): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+jan 08 05:02:45 brain-a320ms2h NetworkManager[904]: <info>  [1767859365.9527] dhcp4 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 05:02:45 brain-a320ms2h NetworkManager[904]: <info>  [1767859365.9527] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 05:02:45 brain-a320ms2h NetworkManager[904]: <info>  [1767859365.9528] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 05:02:45 brain-a320ms2h NetworkManager[904]: <info>  [1767859365.9562] dhcp6 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 05:02:45 brain-a320ms2h NetworkManager[904]: <info>  [1767859365.9563] dhcp6 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 05:02:45 brain-a320ms2h NetworkManager[904]: <info>  [1767859365.9563] dhcp6 (wlx00e1b011877f): state changed no lease
+jan 08 05:02:45 brain-a320ms2h NetworkManager[904]: <info>  [1767859365.9766] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 05:02:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859367.0990] policy: auto-activating connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 05:02:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859367.0998] device (wlx00e1b011877f): Activation: starting connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 05:02:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859367.1000] device (wlx00e1b011877f): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+jan 08 05:02:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859367.1006] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 05:02:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859367.1015] device (wlx00e1b011877f): Activation: (wifi) access point 'Luciana oi fibra 2G' has security, but secrets are required.
+jan 08 05:02:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859367.1015] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 05:02:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859367.1021] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 05:02:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859367.1031] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 05:02:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859367.1035] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 05:02:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859367.1045] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 05:02:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859367.1045] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 05:02:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859367.1046] Config: added 'scan_ssid' value '1'
+jan 08 05:02:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859367.1046] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 05:02:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859367.1046] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 05:02:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859367.1046] Config: added 'auth_alg' value 'OPEN'
+jan 08 05:02:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859367.1046] Config: added 'psk' value '<hidden>'
+jan 08 05:02:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859367.1236] device (wlx00e1b011877f): supplicant interface state: disconnected -> authenticating
+jan 08 05:02:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859367.7642] device (wlx00e1b011877f): supplicant interface state: authenticating -> disconnected
+jan 08 05:02:52 brain-a320ms2h NetworkManager[904]: <info>  [1767859372.7655] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:03:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859391.2802] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:03:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859391.2828] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:03:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859391.3483] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 05:03:11 brain-a320ms2h NetworkManager[904]: <warn>  [1767859391.9466] device (wlx00e1b011877f): Activation: (wifi) association took too long
+jan 08 05:03:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859391.9466] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 05:03:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859391.9470] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 05:03:11 brain-a320ms2h NetworkManager[904]: <warn>  [1767859391.9472] device (wlx00e1b011877f): Activation: (wifi) asking for new secrets
+jan 08 05:03:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859391.9490] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 05:03:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859391.9497] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 05:03:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859391.9516] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 05:03:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859391.9955] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 05:03:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859391.9956] Config: added 'scan_ssid' value '1'
+jan 08 05:03:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859391.9956] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 05:03:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859391.9956] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 05:03:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859391.9957] Config: added 'auth_alg' value 'OPEN'
+jan 08 05:03:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859391.9957] Config: added 'psk' value '<hidden>'
+jan 08 05:03:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859391.9997] device (wlx00e1b011877f): supplicant interface state: associated -> disconnected
+jan 08 05:03:12 brain-a320ms2h NetworkManager[904]: <info>  [1767859392.0137] device (wlx00e1b011877f): supplicant interface state: disconnected -> authenticating
+jan 08 05:03:12 brain-a320ms2h NetworkManager[904]: <info>  [1767859392.0166] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:03:12 brain-a320ms2h NetworkManager[904]: <info>  [1767859392.0678] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 05:03:12 brain-a320ms2h NetworkManager[904]: <info>  [1767859392.1870] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 05:03:12 brain-a320ms2h NetworkManager[904]: <info>  [1767859392.2216] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 05:03:12 brain-a320ms2h NetworkManager[904]: <info>  [1767859392.2217] device (wlx00e1b011877f): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Luciana oi fibra 2G"
+jan 08 05:03:12 brain-a320ms2h NetworkManager[904]: <info>  [1767859392.2218] device (wlx00e1b011877f): state change: config -> ip-config (reason 'none', managed-type: 'full')
+jan 08 05:03:12 brain-a320ms2h NetworkManager[904]: <info>  [1767859392.2227] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 05:03:12 brain-a320ms2h NetworkManager[904]: <info>  [1767859392.2960] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66, acd pending
+jan 08 05:03:12 brain-a320ms2h NetworkManager[904]: <info>  [1767859392.4600] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66
+jan 08 05:03:12 brain-a320ms2h NetworkManager[904]: <info>  [1767859392.4747] device (wlx00e1b011877f): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+jan 08 05:03:12 brain-a320ms2h NetworkManager[904]: <info>  [1767859392.4912] device (wlx00e1b011877f): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+jan 08 05:03:12 brain-a320ms2h NetworkManager[904]: <info>  [1767859392.4914] device (wlx00e1b011877f): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+jan 08 05:03:12 brain-a320ms2h NetworkManager[904]: <info>  [1767859392.4926] device (wlx00e1b011877f): Activation: successful, device activated.
+jan 08 05:03:17 brain-a320ms2h NetworkManager[904]: <info>  [1767859397.1804] device (wlx00e1b011877f): conflict detected for IP address 192.168.1.66 with host B4:2E:99:F2:DE:54
+jan 08 05:04:57 brain-a320ms2h NetworkManager[904]: <info>  [1767859497.1051] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 05:04:57 brain-a320ms2h NetworkManager[904]: <info>  [1767859497.2058] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:04:58 brain-a320ms2h NetworkManager[904]: <info>  [1767859498.3353] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:04:58 brain-a320ms2h NetworkManager[904]: <info>  [1767859498.3930] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:04:59 brain-a320ms2h NetworkManager[904]: <info>  [1767859499.0374] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 05:04:59 brain-a320ms2h NetworkManager[904]: <info>  [1767859499.5305] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:05:06 brain-a320ms2h NetworkManager[904]: <info>  [1767859506.7917] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:05:07 brain-a320ms2h NetworkManager[904]: <info>  [1767859507.0223] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:05:07 brain-a320ms2h NetworkManager[904]: <info>  [1767859507.1827] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 05:05:10 brain-a320ms2h NetworkManager[904]: <info>  [1767859510.2339] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 05:05:11 brain-a320ms2h NetworkManager[904]: <warn>  [1767859511.9461] device (wlx00e1b011877f): link timed out.
+jan 08 05:05:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859511.9464] device (wlx00e1b011877f): state change: activated -> failed (reason 'supplicant-timeout', managed-type: 'full')
+jan 08 05:05:11 brain-a320ms2h NetworkManager[904]: <warn>  [1767859511.9495] device (wlx00e1b011877f): Activation: failed for connection 'Luciana oi fibra 2G'
+jan 08 05:05:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859511.9512] device (wlx00e1b011877f): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+jan 08 05:05:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859511.9528] dhcp4 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 05:05:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859511.9529] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 05:05:11 brain-a320ms2h NetworkManager[904]: <info>  [1767859511.9530] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 05:05:12 brain-a320ms2h NetworkManager[904]: <info>  [1767859512.0232] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> disconnected
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.0346] policy: auto-activating connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.0356] device (wlx00e1b011877f): Activation: starting connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.0357] device (wlx00e1b011877f): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.0363] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.0367] device (wlx00e1b011877f): Activation: (wifi) access point 'Luciana oi fibra 2G' has security, but secrets are required.
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.0367] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.0370] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.0387] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.0393] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.0397] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.0398] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.0398] Config: added 'scan_ssid' value '1'
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.0398] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.0401] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.0402] Config: added 'auth_alg' value 'OPEN'
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.0402] Config: added 'psk' value '<hidden>'
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.0666] device (wlx00e1b011877f): supplicant interface state: disconnected -> authenticating
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.0681] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:05:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859513.7065] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 05:05:14 brain-a320ms2h NetworkManager[904]: <info>  [1767859514.7002] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:05:15 brain-a320ms2h NetworkManager[904]: <info>  [1767859515.8282] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:05:15 brain-a320ms2h NetworkManager[904]: <info>  [1767859515.8325] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:05:15 brain-a320ms2h NetworkManager[904]: <info>  [1767859515.9016] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 05:05:19 brain-a320ms2h NetworkManager[904]: <info>  [1767859519.8432] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 05:05:23 brain-a320ms2h NetworkManager[904]: <info>  [1767859523.8323] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 05:05:23 brain-a320ms2h NetworkManager[904]: <info>  [1767859523.8324] device (wlx00e1b011877f): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Luciana oi fibra 2G"
+jan 08 05:05:23 brain-a320ms2h NetworkManager[904]: <info>  [1767859523.8326] device (wlx00e1b011877f): state change: config -> ip-config (reason 'none', managed-type: 'full')
+jan 08 05:05:23 brain-a320ms2h NetworkManager[904]: <info>  [1767859523.8337] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 05:05:24 brain-a320ms2h NetworkManager[904]: <info>  [1767859524.0257] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66, acd pending
+jan 08 05:05:24 brain-a320ms2h NetworkManager[904]: <info>  [1767859524.1629] dhcp4 (wlx00e1b011877f): state changed new lease, address=192.168.1.66
+jan 08 05:05:24 brain-a320ms2h NetworkManager[904]: <info>  [1767859524.1806] device (wlx00e1b011877f): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')
+jan 08 05:05:24 brain-a320ms2h NetworkManager[904]: <info>  [1767859524.1957] device (wlx00e1b011877f): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')
+jan 08 05:05:24 brain-a320ms2h NetworkManager[904]: <info>  [1767859524.1958] device (wlx00e1b011877f): state change: secondaries -> activated (reason 'none', managed-type: 'full')
+jan 08 05:05:24 brain-a320ms2h NetworkManager[904]: <info>  [1767859524.1964] device (wlx00e1b011877f): Activation: successful, device activated.
+jan 08 05:05:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859538.8364] dhcp6 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 05:05:52 brain-a320ms2h NetworkManager[904]: <info>  [1767859552.5864] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 05:05:52 brain-a320ms2h NetworkManager[904]: <info>  [1767859552.6873] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:05:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859553.8218] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:05:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859553.8290] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:05:54 brain-a320ms2h NetworkManager[904]: <info>  [1767859554.4628] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 05:05:54 brain-a320ms2h NetworkManager[904]: <info>  [1767859554.9614] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:06:07 brain-a320ms2h NetworkManager[904]: <warn>  [1767859567.9462] device (wlx00e1b011877f): link timed out.
+jan 08 05:06:07 brain-a320ms2h NetworkManager[904]: <info>  [1767859567.9483] device (wlx00e1b011877f): state change: activated -> failed (reason 'supplicant-timeout', managed-type: 'full')
+jan 08 05:06:07 brain-a320ms2h NetworkManager[904]: <warn>  [1767859567.9497] device (wlx00e1b011877f): Activation: failed for connection 'Luciana oi fibra 2G'
+jan 08 05:06:07 brain-a320ms2h NetworkManager[904]: <info>  [1767859567.9528] device (wlx00e1b011877f): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+jan 08 05:06:07 brain-a320ms2h NetworkManager[904]: <info>  [1767859567.9570] dhcp4 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 05:06:07 brain-a320ms2h NetworkManager[904]: <info>  [1767859567.9570] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 05:06:07 brain-a320ms2h NetworkManager[904]: <info>  [1767859567.9570] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 05:06:07 brain-a320ms2h NetworkManager[904]: <info>  [1767859567.9573] dhcp6 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 05:06:07 brain-a320ms2h NetworkManager[904]: <info>  [1767859567.9573] dhcp6 (wlx00e1b011877f): state changed no lease
+jan 08 05:06:08 brain-a320ms2h NetworkManager[904]: <info>  [1767859568.3587] device (wlx00e1b011877f): supplicant interface state: scanning -> inactive
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.0703] policy: auto-activating connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.0713] device (wlx00e1b011877f): Activation: starting connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.0715] device (wlx00e1b011877f): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.0725] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.0733] device (wlx00e1b011877f): Activation: (wifi) access point 'Luciana oi fibra 2G' has security, but secrets are required.
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.0733] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.0739] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.0757] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.0764] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.0775] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.0788] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.0788] Config: added 'scan_ssid' value '1'
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.0788] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.0789] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.0789] Config: added 'auth_alg' value 'OPEN'
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.0789] Config: added 'psk' value '<hidden>'
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.1017] device (wlx00e1b011877f): supplicant interface state: inactive -> authenticating
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.1296] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:07:38 brain-a320ms2h NetworkManager[904]: <info>  [1767859658.4977] device (wlx00e1b011877f): supplicant interface state: associating -> 4way_handshake
+jan 08 05:07:42 brain-a320ms2h NetworkManager[904]: <info>  [1767859662.3422] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> disconnected
+jan 08 05:07:42 brain-a320ms2h NetworkManager[904]: <info>  [1767859662.4431] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:07:43 brain-a320ms2h NetworkManager[904]: <info>  [1767859663.5634] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:07:43 brain-a320ms2h NetworkManager[904]: <info>  [1767859663.7130] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:07:44 brain-a320ms2h NetworkManager[904]: <info>  [1767859664.3533] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 05:07:49 brain-a320ms2h NetworkManager[904]: <info>  [1767859669.3493] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:07:54 brain-a320ms2h NetworkManager[904]: <info>  [1767859674.4813] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:07:54 brain-a320ms2h NetworkManager[904]: <info>  [1767859674.5526] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:07:55 brain-a320ms2h NetworkManager[904]: <info>  [1767859675.1076] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 05:08:01 brain-a320ms2h NetworkManager[904]: <info>  [1767859681.3398] device (wlx00e1b011877f): supplicant interface state: associated -> disconnected
+jan 08 05:08:01 brain-a320ms2h NetworkManager[904]: <info>  [1767859681.4418] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:08:02 brain-a320ms2h NetworkManager[904]: <warn>  [1767859682.9463] device (wlx00e1b011877f): Activation: (wifi) association took too long
+jan 08 05:08:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859682.9463] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 05:08:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859682.9467] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 05:08:02 brain-a320ms2h NetworkManager[904]: <warn>  [1767859682.9482] device (wlx00e1b011877f): Activation: (wifi) asking for new secrets
+jan 08 05:08:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859682.9502] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 05:08:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859682.9518] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 05:08:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859682.9528] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 05:08:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859682.9531] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 05:08:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859682.9531] Config: added 'scan_ssid' value '1'
+jan 08 05:08:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859682.9532] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 05:08:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859682.9532] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 05:08:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859682.9532] Config: added 'auth_alg' value 'OPEN'
+jan 08 05:08:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859682.9532] Config: added 'psk' value '<hidden>'
+jan 08 05:08:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859682.9735] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:08:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859682.9961] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:08:03 brain-a320ms2h NetworkManager[904]: <info>  [1767859683.6332] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 05:08:13 brain-a320ms2h NetworkManager[904]: <info>  [1767859693.6294] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:08:14 brain-a320ms2h NetworkManager[904]: <info>  [1767859694.7552] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:08:14 brain-a320ms2h NetworkManager[904]: <info>  [1767859694.9753] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:08:15 brain-a320ms2h NetworkManager[904]: <info>  [1767859695.3079] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 05:08:16 brain-a320ms2h NetworkManager[904]: <info>  [1767859696.3456] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 05:08:16 brain-a320ms2h NetworkManager[904]: <info>  [1767859696.3903] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 05:08:16 brain-a320ms2h NetworkManager[904]: <info>  [1767859696.3903] device (wlx00e1b011877f): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Luciana oi fibra 2G"
+jan 08 05:08:16 brain-a320ms2h NetworkManager[904]: <info>  [1767859696.3904] device (wlx00e1b011877f): state change: config -> ip-config (reason 'none', managed-type: 'full')
+jan 08 05:08:16 brain-a320ms2h NetworkManager[904]: <info>  [1767859696.3917] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 05:08:22 brain-a320ms2h NetworkManager[904]: <info>  [1767859702.3709] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 05:08:22 brain-a320ms2h NetworkManager[904]: <info>  [1767859702.4733] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:08:23 brain-a320ms2h NetworkManager[904]: <info>  [1767859703.5974] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:08:23 brain-a320ms2h NetworkManager[904]: <info>  [1767859703.6520] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:08:24 brain-a320ms2h NetworkManager[904]: <info>  [1767859704.2923] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 05:08:24 brain-a320ms2h NetworkManager[904]: <info>  [1767859704.7872] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:08:44 brain-a320ms2h NetworkManager[904]: <info>  [1767859724.3091] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:08:44 brain-a320ms2h NetworkManager[904]: <info>  [1767859724.3324] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:08:44 brain-a320ms2h NetworkManager[904]: <info>  [1767859724.6400] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 05:08:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859727.6426] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 05:08:47 brain-a320ms2h NetworkManager[904]: <info>  [1767859727.6753] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 05:09:01 brain-a320ms2h NetworkManager[904]: <info>  [1767859741.9460] device (wlx00e1b011877f): state change: ip-config -> failed (reason 'ip-config-unavailable', managed-type: 'full')
+jan 08 05:09:01 brain-a320ms2h NetworkManager[904]: <warn>  [1767859741.9474] device (wlx00e1b011877f): Activation: failed for connection 'Luciana oi fibra 2G'
+jan 08 05:09:01 brain-a320ms2h NetworkManager[904]: <info>  [1767859741.9477] device (wlx00e1b011877f): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+jan 08 05:09:01 brain-a320ms2h NetworkManager[904]: <info>  [1767859741.9510] dhcp4 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 05:09:01 brain-a320ms2h NetworkManager[904]: <info>  [1767859741.9510] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 05:09:01 brain-a320ms2h NetworkManager[904]: <info>  [1767859741.9511] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.0484] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.4622] policy: auto-activating connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.4642] device (wlx00e1b011877f): Activation: starting connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.4651] device (wlx00e1b011877f): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.4664] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.4669] device (wlx00e1b011877f): Activation: (wifi) access point 'Luciana oi fibra 2G' has security, but secrets are required.
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.4670] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.4672] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.4691] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.4696] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.4703] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.4706] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.4707] Config: added 'scan_ssid' value '1'
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.4707] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.4707] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.4707] Config: added 'auth_alg' value 'OPEN'
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.4708] Config: added 'psk' value '<hidden>'
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.4972] device (wlx00e1b011877f): supplicant interface state: disconnected -> authenticating
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.5101] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:09:02 brain-a320ms2h NetworkManager[904]: <info>  [1767859742.7038] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 05:09:05 brain-a320ms2h NetworkManager[904]: <info>  [1767859745.7282] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 05:09:06 brain-a320ms2h NetworkManager[904]: <info>  [1767859746.7489] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 05:09:06 brain-a320ms2h NetworkManager[904]: <info>  [1767859746.7489] device (wlx00e1b011877f): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Luciana oi fibra 2G"
+jan 08 05:09:06 brain-a320ms2h NetworkManager[904]: <info>  [1767859746.7494] device (wlx00e1b011877f): state change: config -> ip-config (reason 'none', managed-type: 'full')
+jan 08 05:09:06 brain-a320ms2h NetworkManager[904]: <info>  [1767859746.7506] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 05:09:18 brain-a320ms2h NetworkManager[904]: <info>  [1767859758.3631] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 05:09:18 brain-a320ms2h NetworkManager[904]: <info>  [1767859758.4616] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:09:19 brain-a320ms2h NetworkManager[904]: <info>  [1767859759.5917] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:09:19 brain-a320ms2h NetworkManager[904]: <info>  [1767859759.8221] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:09:19 brain-a320ms2h NetworkManager[904]: <info>  [1767859759.9154] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 05:09:24 brain-a320ms2h NetworkManager[904]: <info>  [1767859764.3566] device (wlx00e1b011877f): supplicant interface state: associated -> disconnected
+jan 08 05:09:24 brain-a320ms2h NetworkManager[904]: <info>  [1767859764.4584] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:09:25 brain-a320ms2h NetworkManager[904]: <info>  [1767859765.5867] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:09:25 brain-a320ms2h NetworkManager[904]: <info>  [1767859765.6245] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:09:25 brain-a320ms2h NetworkManager[904]: <info>  [1767859765.9079] device (wlx00e1b011877f): supplicant interface state: associating -> 4way_handshake
+jan 08 05:09:31 brain-a320ms2h NetworkManager[904]: <info>  [1767859771.3383] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> disconnected
+jan 08 05:09:31 brain-a320ms2h NetworkManager[904]: <info>  [1767859771.4404] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:09:32 brain-a320ms2h NetworkManager[904]: <info>  [1767859772.5696] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:09:32 brain-a320ms2h NetworkManager[904]: <info>  [1767859772.6442] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:09:33 brain-a320ms2h NetworkManager[904]: <info>  [1767859773.0834] device (wlx00e1b011877f): supplicant interface state: associating -> 4way_handshake
+jan 08 05:09:36 brain-a320ms2h NetworkManager[904]: <info>  [1767859776.0960] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 05:09:45 brain-a320ms2h NetworkManager[904]: <info>  [1767859785.3648] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 05:09:45 brain-a320ms2h NetworkManager[904]: <info>  [1767859785.4653] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:09:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859786.5895] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:09:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859786.6117] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:09:46 brain-a320ms2h NetworkManager[904]: <info>  [1767859786.9023] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 05:09:48 brain-a320ms2h NetworkManager[904]: <info>  [1767859788.9630] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 05:09:49 brain-a320ms2h NetworkManager[904]: <info>  [1767859789.9835] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> completed
+jan 08 05:09:50 brain-a320ms2h NetworkManager[904]: <info>  [1767859790.3659] device (wlx00e1b011877f): supplicant interface state: completed -> disconnected
+jan 08 05:09:50 brain-a320ms2h NetworkManager[904]: <info>  [1767859790.4633] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:09:51 brain-a320ms2h NetworkManager[904]: <info>  [1767859791.5925] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:09:51 brain-a320ms2h NetworkManager[904]: <info>  [1767859791.6076] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:09:51 brain-a320ms2h NetworkManager[904]: <info>  [1767859791.9462] device (wlx00e1b011877f): state change: ip-config -> failed (reason 'ip-config-unavailable', managed-type: 'full')
+jan 08 05:09:51 brain-a320ms2h NetworkManager[904]: <warn>  [1767859791.9472] device (wlx00e1b011877f): Activation: failed for connection 'Luciana oi fibra 2G'
+jan 08 05:09:51 brain-a320ms2h NetworkManager[904]: <info>  [1767859791.9484] device (wlx00e1b011877f): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+jan 08 05:09:51 brain-a320ms2h NetworkManager[904]: <info>  [1767859791.9559] dhcp4 (wlx00e1b011877f): canceled DHCP transaction
+jan 08 05:09:51 brain-a320ms2h NetworkManager[904]: <info>  [1767859791.9560] dhcp4 (wlx00e1b011877f): activation: beginning transaction (timeout in 45 seconds)
+jan 08 05:09:51 brain-a320ms2h NetworkManager[904]: <info>  [1767859791.9560] dhcp4 (wlx00e1b011877f): state changed no lease
+jan 08 05:09:51 brain-a320ms2h NetworkManager[904]: <info>  [1767859791.9707] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.0995] policy: auto-activating connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.1013] device (wlx00e1b011877f): Activation: starting connection 'Luciana oi fibra 2G' (d8d09de6-e9b2-46e7-8d89-801ac433a2f2)
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.1016] device (wlx00e1b011877f): state change: disconnected -> prepare (reason 'none', managed-type: 'full')
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.1028] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.1037] device (wlx00e1b011877f): Activation: (wifi) access point 'Luciana oi fibra 2G' has security, but secrets are required.
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.1052] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.1056] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.1094] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.1101] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.1106] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.1106] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.1107] Config: added 'scan_ssid' value '1'
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.1107] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.1107] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.1107] Config: added 'auth_alg' value 'OPEN'
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.1107] Config: added 'psk' value '<hidden>'
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.1333] device (wlx00e1b011877f): supplicant interface state: disconnected -> authenticating
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.1953] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:09:53 brain-a320ms2h NetworkManager[904]: <info>  [1767859793.8323] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 05:09:54 brain-a320ms2h NetworkManager[904]: <info>  [1767859794.3273] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:10:01 brain-a320ms2h NetworkManager[904]: <info>  [1767859801.5712] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:10:01 brain-a320ms2h NetworkManager[904]: <info>  [1767859801.5928] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:10:01 brain-a320ms2h NetworkManager[904]: <info>  [1767859801.9379] device (wlx00e1b011877f): supplicant interface state: associating -> 4way_handshake
+jan 08 05:10:05 brain-a320ms2h NetworkManager[904]: <info>  [1767859805.3179] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> disconnected
+jan 08 05:10:05 brain-a320ms2h NetworkManager[904]: <info>  [1767859805.4193] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:10:06 brain-a320ms2h NetworkManager[904]: <info>  [1767859806.5401] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:10:06 brain-a320ms2h NetworkManager[904]: <info>  [1767859806.5657] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:10:07 brain-a320ms2h NetworkManager[904]: <info>  [1767859807.2012] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 05:10:12 brain-a320ms2h NetworkManager[904]: <info>  [1767859812.1975] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:10:17 brain-a320ms2h NetworkManager[904]: <info>  [1767859817.3581] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:10:17 brain-a320ms2h NetworkManager[904]: <info>  [1767859817.4946] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:10:17 brain-a320ms2h NetworkManager[904]: <warn>  [1767859817.9462] device (wlx00e1b011877f): Activation: (wifi) association took too long
+jan 08 05:10:17 brain-a320ms2h NetworkManager[904]: <info>  [1767859817.9463] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 05:10:17 brain-a320ms2h NetworkManager[904]: <info>  [1767859817.9467] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 05:10:17 brain-a320ms2h NetworkManager[904]: <warn>  [1767859817.9470] device (wlx00e1b011877f): Activation: (wifi) asking for new secrets
+jan 08 05:10:17 brain-a320ms2h NetworkManager[904]: <info>  [1767859817.9484] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 05:10:17 brain-a320ms2h NetworkManager[904]: <info>  [1767859817.9492] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 05:10:17 brain-a320ms2h NetworkManager[904]: <info>  [1767859817.9506] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 05:10:17 brain-a320ms2h NetworkManager[904]: <info>  [1767859817.9568] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 05:10:17 brain-a320ms2h NetworkManager[904]: <info>  [1767859817.9568] Config: added 'scan_ssid' value '1'
+jan 08 05:10:17 brain-a320ms2h NetworkManager[904]: <info>  [1767859817.9568] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 05:10:17 brain-a320ms2h NetworkManager[904]: <info>  [1767859817.9569] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 05:10:17 brain-a320ms2h NetworkManager[904]: <info>  [1767859817.9569] Config: added 'auth_alg' value 'OPEN'
+jan 08 05:10:17 brain-a320ms2h NetworkManager[904]: <info>  [1767859817.9569] Config: added 'psk' value '<hidden>'
+jan 08 05:10:17 brain-a320ms2h NetworkManager[904]: <info>  [1767859817.9608] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 05:10:17 brain-a320ms2h NetworkManager[904]: <info>  [1767859817.9757] device (wlx00e1b011877f): supplicant interface state: disconnected -> authenticating
+jan 08 05:10:18 brain-a320ms2h NetworkManager[904]: <info>  [1767859818.2205] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:10:18 brain-a320ms2h NetworkManager[904]: <info>  [1767859818.8622] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 05:10:28 brain-a320ms2h NetworkManager[904]: <info>  [1767859828.8584] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:10:29 brain-a320ms2h NetworkManager[904]: <info>  [1767859829.9909] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:10:30 brain-a320ms2h NetworkManager[904]: <info>  [1767859830.0044] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:10:30 brain-a320ms2h NetworkManager[904]: <info>  [1767859830.6267] device (wlx00e1b011877f): supplicant interface state: associating -> associated
+jan 08 05:10:32 brain-a320ms2h NetworkManager[904]: <info>  [1767859832.5774] device (wlx00e1b011877f): supplicant interface state: associated -> 4way_handshake
+jan 08 05:10:34 brain-a320ms2h NetworkManager[904]: <info>  [1767859834.2993] device (wlx00e1b011877f): supplicant interface state: 4way_handshake -> disconnected
+jan 08 05:10:34 brain-a320ms2h NetworkManager[904]: <info>  [1767859834.4030] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:10:42 brain-a320ms2h NetworkManager[904]: <warn>  [1767859842.9471] device (wlx00e1b011877f): Activation: (wifi) association took too long
+jan 08 05:10:42 brain-a320ms2h NetworkManager[904]: <info>  [1767859842.9472] device (wlx00e1b011877f): state change: config -> need-auth (reason 'none', managed-type: 'full')
+jan 08 05:10:42 brain-a320ms2h NetworkManager[904]: <info>  [1767859842.9475] sup-iface[53dd159dcbef561f,0,wlx00e1b011877f]: wps: type pbc start...
+jan 08 05:10:42 brain-a320ms2h NetworkManager[904]: <warn>  [1767859842.9477] device (wlx00e1b011877f): Activation: (wifi) asking for new secrets
+jan 08 05:10:42 brain-a320ms2h NetworkManager[904]: <info>  [1767859842.9503] device (wlx00e1b011877f): state change: need-auth -> prepare (reason 'none', managed-type: 'full')
+jan 08 05:10:42 brain-a320ms2h NetworkManager[904]: <info>  [1767859842.9508] device (wlx00e1b011877f): state change: prepare -> config (reason 'none', managed-type: 'full')
+jan 08 05:10:42 brain-a320ms2h NetworkManager[904]: <info>  [1767859842.9513] device (wlx00e1b011877f): Activation: (wifi) connection 'Luciana oi fibra 2G' has security, and secrets exist.  No new secrets needed.
+jan 08 05:10:42 brain-a320ms2h NetworkManager[904]: <info>  [1767859842.9514] Config: added 'ssid' value 'Luciana oi fibra 2G'
+jan 08 05:10:42 brain-a320ms2h NetworkManager[904]: <info>  [1767859842.9514] Config: added 'scan_ssid' value '1'
+jan 08 05:10:42 brain-a320ms2h NetworkManager[904]: <info>  [1767859842.9514] Config: added 'bgscan' value 'simple:30:-70:86400'
+jan 08 05:10:42 brain-a320ms2h NetworkManager[904]: <info>  [1767859842.9515] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK SAE FT-SAE'
+jan 08 05:10:42 brain-a320ms2h NetworkManager[904]: <info>  [1767859842.9515] Config: added 'auth_alg' value 'OPEN'
+jan 08 05:10:42 brain-a320ms2h NetworkManager[904]: <info>  [1767859842.9515] Config: added 'psk' value '<hidden>'
+jan 08 05:10:44 brain-a320ms2h NetworkManager[904]: <info>  [1767859844.1023] device (wlx00e1b011877f): supplicant interface state: scanning -> authenticating
+jan 08 05:10:44 brain-a320ms2h NetworkManager[904]: <info>  [1767859844.2485] device (wlx00e1b011877f): supplicant interface state: authenticating -> associating
+jan 08 05:10:44 brain-a320ms2h NetworkManager[904]: <info>  [1767859844.8812] device (wlx00e1b011877f): supplicant interface state: associating -> disconnected
+jan 08 05:10:54 brain-a320ms2h NetworkManager[904]: <info>  [1767859854.8787] device (wlx00e1b011877f): supplicant interface state: disconnected -> scanning
+jan 08 05:11:07 brain-a320ms2h NetworkManager[904]: <warn>  [1767859867.9462] device (wlx00e1b011877f): Activation: (wifi) association took too long
+jan 08 05:11:07 brain-a320ms2h NetworkManager[904]: <info>  [1767859867.9463] device (wlx00e1b011877f): state change: config -> failed (reason 'no-secrets', managed-type: 'full')
+jan 08 05:11:07 brain-a320ms2h NetworkManager[904]: <warn>  [1767859867.9471] device (wlx00e1b011877f): Activation: failed for connection 'Luciana oi fibra 2G'
+jan 08 05:11:07 brain-a320ms2h NetworkManager[904]: <info>  [1767859867.9476] device (wlx00e1b011877f): state change: failed -> disconnected (reason 'none', managed-type: 'full')
+jan 08 05:11:08 brain-a320ms2h NetworkManager[904]: <info>  [1767859868.2582] device (wlx00e1b011877f): supplicant interface state: scanning -> inactive
+jan 08 05:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767860122.9965] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 05:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767861922.9469] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 06:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767863722.9329] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 06:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767865522.9332] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 07:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767867322.9518] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 07:45:23 brain-a320ms2h NetworkManager[904]: <info>  [1767869123.0308] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 08:15:23 brain-a320ms2h NetworkManager[904]: <info>  [1767870923.0357] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 08:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767872722.9231] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 09:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767874522.9227] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 09:45:23 brain-a320ms2h NetworkManager[904]: <info>  [1767876323.0347] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 10:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767878122.9228] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 10:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767879922.9394] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 11:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767881722.9189] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 11:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767883522.9251] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 12:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767885322.9189] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 12:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767887122.9260] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 13:15:23 brain-a320ms2h NetworkManager[904]: <info>  [1767888923.0298] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 13:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767890722.9684] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 14:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767892522.9302] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 14:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767894322.9254] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 15:15:23 brain-a320ms2h NetworkManager[904]: <info>  [1767896123.1368] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 15:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767897922.9257] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 16:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767899722.9241] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 16:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767901522.9320] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 17:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767903322.9901] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 17:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767905122.9214] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 18:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767906922.9261] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 18:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767908722.9220] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 19:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767910522.9253] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 19:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767912322.9234] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 20:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767914122.9274] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 20:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767915922.9277] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 21:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767917722.9249] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 21:45:23 brain-a320ms2h NetworkManager[904]: <info>  [1767919522.9999] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 22:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767921322.9227] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 22:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767923122.9236] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 23:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767924922.9259] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 08 23:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767926722.9672] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 09 00:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767928522.9209] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 09 00:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767930322.9221] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 09 01:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767932122.9853] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 09 01:45:23 brain-a320ms2h NetworkManager[904]: <info>  [1767933923.5655] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 09 02:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767935722.9287] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 09 02:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767937522.9267] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 09 03:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767939322.9221] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 09 03:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767941122.9288] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 09 04:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767942922.9257] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 09 04:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767944722.9287] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 09 05:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767946522.9257] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 09 05:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767948322.9459] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 09 06:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767950122.9580] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 09 06:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767951922.9258] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 09 07:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767953722.9351] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 09 07:45:22 brain-a320ms2h NetworkManager[904]: <info>  [1767955522.9349] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
+jan 09 08:15:22 brain-a320ms2h NetworkManager[904]: <info>  [1767957322.9243] dhcp4 (enp6s0): state changed new lease, address=192.168.1.71
