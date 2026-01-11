@@ -1,5 +1,7 @@
+.old
+
 venv/
 __pycache__/
 *.pyc
 network_report.csv
-./.old
+
